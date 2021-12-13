@@ -1,0 +1,112 @@
+#home {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.image-home {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    filter: brightness(0.78);
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+.intro-circle {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #710809;
+    filter: drop-shadow(1px 2px 5px black);
+    // background-color: black;
+    // background-color: #c4c4c4;
+    opacity: 0.67;
+    header {
+        position: absolute;
+        color: whitesmoke;
+        top: 14.5%;
+        left: 8%;
+        transform: translate(-4%, 18%);
+        font-family: "Roboto", sans-serif;
+        font-size: 23px;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-align: center;
+    }
+    h2 {
+        position: absolute;
+        color: whitesmoke;
+        width: 60%;
+        top: 25%;
+        left: 20%;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.123em;
+        text-align: -webkit-center;
+        line-height: 1.35;
+    }
+}
+.button-circle {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 88%;
+    left: 50%;
+    width: 25%;
+    height: 35px;
+    border-radius: 10px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #715504;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0.85;
+    &:hover {
+        opacity: 1;
+        transition: ease-in-out 400ms;
+        // -webkit-transform: scale(1.2);
+        // -ms-transform: scale(1.2);
+        // transform: scale(1.2);
+        // filter: invert(1);
+    }
+}
+.social-media-buttons {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    width: 20vw;
+    left: 0.4rem;
+    top: 75%;
+    li {
+        // float: left;
+        margin: 11px;
+        list-style-type: none;
+        a img {
+            width: 35px;
+            // opacity: 0.75;
+            border: none;
+            filter: invert(0.78);
+        }
+        a img:hover {
+            opacity: 1;
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+            transition: 400ms ease-in-out;
+            filter: invert(1);
+        }
+    }
+}

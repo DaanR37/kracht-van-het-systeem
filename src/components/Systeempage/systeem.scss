@@ -1,0 +1,118 @@
+#systeem {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.image-systeem {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    filter: brightness(0.78);
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+        // opacity: 0.7;
+    }
+}
+.systeem-circle-1 {
+    position: absolute;
+    top: 55%;
+    left: 26%;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #710809;
+    filter: drop-shadow(1px 2px 5px black);
+    opacity: 0.7;
+    header {
+        position: relative;
+        top: 18%;
+        left: 13%;
+        width: 80%;
+        transform: translate(-4%, 18%);
+        font-family: "Roboto", sans-serif;
+        font-size: 21px;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-align: center;
+        color: whitesmoke;
+    }
+    h2 {
+        position: relative;
+        width: 60%;
+        top: 23%;
+        left: 20%;
+        font-family: "Roboto", sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        letter-spacing: 0.123em;
+        text-align: -webkit-center;
+        color: whitesmoke;
+        line-height: 1.35;
+    }
+}
+.systeem-circle-2 {
+    position: absolute;
+    top: 68%;
+    left: 85%;
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #888b7e;
+    filter: drop-shadow(1px 2px 5px black);
+    opacity: 0.70;
+    h2 {
+        position: relative;
+        width: 62%;
+        top: 15%;
+        left: 20%;
+        font-family: "Roboto", sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        letter-spacing: 0.123em;
+        text-align: -webkit-center;
+        color: black;
+        line-height: 1.35;
+    }
+}
+.arrow-down {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%) rotate(360deg);
+    z-index: 1;
+    bottom: 6vh;
+    span {
+        margin-top: -15px;
+        display: block;
+        width: 25px;
+        height: 25px;
+        border-bottom: 2.5px solid black;
+        border-right: 2.5px solid black;
+        animation: buttonbounce 2.5s infinite;
+    }
+    span:nth-child(2) {
+        animation-delay: -0.1s;
+    }
+    span:nth-child(3) {
+        animation-delay: -0.2s;
+    }
+}
+@keyframes buttonbounce {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}

@@ -6,7 +6,7 @@ export default function Systeem() {
         <section id="systeem">
             <div className="image-systeem">
                 <img
-                    src="images/systeempage-achtergrond.jpg"
+                    src="images/homepage-achtergrond-2.jpg"
                     alt="mannetje-vrouwtje"
                 />
             </div>

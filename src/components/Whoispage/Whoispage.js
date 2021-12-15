@@ -10,7 +10,7 @@ export default function Whoispage() {
             </div>
             <div className="image-who-is">
                 <img
-                    src="images/contactpage-achtergrond.jpg"
+                    src="images/homepage-achtergrond-2.jpg"
                     alt="mannetje-vrouwtje"
                 />
             </div>

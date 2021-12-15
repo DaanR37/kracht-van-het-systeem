@@ -6,7 +6,7 @@ export default function Coaching() {
         <section id="coaching">
             <div className="image-coaching">
                 <img
-                    src="images/coachingpage-achtergrond.jpg"
+                    src="images/homepage-achtergrond-2.jpg"
                     alt="mannetje-vrouwtje"
                 />
             </div>

@@ -6,12 +6,12 @@ export default function Homepage() {
         <section id="home">
             <div className="image-home">
                 <img
-                    src="images/homepage-achtergrond.jpg"
+                    src="images/homepage-achtergrond-2.jpg"
                     alt="vogel boven woeste zee"
                 />
             </div>
             <div className="intro-circle">
-                <header>Welkom bij De Kracht van het Systeem</header>
+                <header>Welkom bij De Kracht<br></br>van het Systeem</header>
                 <h2>
                     Vraag je je wel eens af, wie je bent of wat je wil?
                     Herken jij het verschil tussen je gedrag en wie je werkelijk bent?

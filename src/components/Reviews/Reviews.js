@@ -6,7 +6,7 @@ export default function Reviews() {
         <section id="review">
             <div className="image-reviews">
                 <img
-                    src="images/reviewpage-achtergrond.jpg"
+                    src="images/homepage-achtergrond-2.jpg"
                     alt="mannetje-vrouwtje"
                 />
             </div>
@@ -29,7 +29,7 @@ export default function Reviews() {
             </div>
             <div className="text-balloon-2">
                 <img
-                    src="images/text-balloon.svg"
+                    src="images/text-balloon-2.svg"
                     alt=""
                 />
                 <h2>
@@ -38,7 +38,7 @@ export default function Reviews() {
             </div>
             <div className="text-balloon-3">
                 <img
-                    src="images/text-balloon.svg"
+                    src="images/text-balloon-3.svg"
                     alt=""
                 />
                 <h2>
@@ -50,7 +50,7 @@ export default function Reviews() {
             </div>
             <div className="text-balloon-4">
                 <img
-                    src="images/text-balloon.svg"
+                    src="images/text-balloon-4.svg"
                     alt=""
                 />
                 <h2>

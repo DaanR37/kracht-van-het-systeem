@@ -25,7 +25,7 @@ export default function Navbar() {
       <ul className={`logo-who ${show && 'logo-left-who'}`}>
         <li>
             <img
-              src="images/logo-wit.png"
+              src="images/logo-zwart.png"
               alt="logo kracht van het systeem"
             />
         </li>

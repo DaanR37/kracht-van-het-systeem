@@ -36,13 +36,13 @@ export default function Systeem() {
                     relatieproblemen, burn-out en meer…
                 </h2>
             </div>
-            <a href="#coaching">
-                <div className="arrow-down">
+            {/* <a href="#coaching"> */}
+                {/* <div className="arrow-down"> */}
                     {/* <span></span> */}
-                    <span></span>
+                    {/* <span></span>
                     <span></span>
                 </div>
-            </a>
+            </a> */}
         </section>
     )
 }

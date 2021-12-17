@@ -51,78 +51,30 @@ export default function Footer() {
                             </div>
                         </div>
                         {/* <div className="footer-container__column footer-container__column--contact"> */}
-                            {/* <div className="footer-container__column-inner"> */}
-                                {/* <h2 className="footer-container__title title title--size-4 color--light-blue">Amsterdam</h2> */}
-                                <div className="footer-container__paragraph">
-                                    <p>
-                                        <strong>
-                                            <h3>Monique Aarts</h3>
-                                        </strong>
-                                        <br></br>
-                                        <strong>
-                                            <a href="tel:+31(0)622429093" target="_blank" rel="noreferrer">+31(0)622429093</a>
-                                        </strong>
-                                        <br></br>
-                                        <strong>
-                                            <a href="mailto:moaarts7@xs4all.nl" target="_blank" rel="noreferrer">moaarts7@xs4all.nl</a>
-                                        </strong>
-                                    </p>
-                                </div>
-                            {/* </div> */}
+                        {/* <div className="footer-container__column-inner"> */}
+                        {/* <h2 className="footer-container__title title title--size-4 color--light-blue">Amsterdam</h2> */}
+                        <div className="footer-container__paragraph">
+                            <p>
+                                <strong>
+                                    <h3>Monique Aarts</h3>
+                                </strong>
+                                <br></br>
+                                <strong>
+                                    <a href="tel:+31(0)622429093" target="_blank" rel="noreferrer">+31(0)622429093</a>
+                                </strong>
+                                <br></br>
+                                <strong>
+                                    <a href="mailto:moaarts7@xs4all.nl" target="_blank" rel="noreferrer">moaarts7@xs4all.nl</a>
+                                </strong>
+                            </p>
+                        </div>
+                        {/* </div> */}
                         {/* </div> */}
                     </div>
                 </div>
-                {/* <img
-            src="images/half-circle.svg"
-            alt=""
-        /> */}
-                {/* <div className="footer">
-            <p>© 2021 Front-Labs. All Rights Reserved.</p>
-        </div> */}
-                {/* <div className="contact-gegevens">
-            <ul>
-                <li>
-                    <h3>Monique Aarts</h3>
-                </li>
-                <li>
-                    <h3>email: moaarts7@xs4all.nl</h3>
-                </li>
-                <li>
-                    <h3>tel. nummer: +31(0)622429093</h3>
-                </li>
-            </ul>
-        </div> */}
-                {/* <div className="social-media-buttons-footer">
-            <ul>
-                <li>
-                    <a
-                        href="mailto:moaarts7@xs4all.nl"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <img src="images/email.svg" alt="instagram" />
-                    </a>
-                </li>
-                <li>
-                    <a
-                        href="https://www.linkedin.com/in/moniqueaarts/"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <img src="images/linkedin.svg" alt="linkedin" />
-                    </a>
-                </li>
-                <li>
-                    <a
-                        href="https://wa.me/+31622429093"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <img src="images/whatsapp.svg" alt="whatsapp" />
-                    </a>
-                </li>
-            </ul>
-        </div> */}
+                <div className="front-labs-tag">
+                    <p>© 2021 Front-Labs. All Rights Reserved.</p>
+                </div>
             </footer>
         </section>
     )

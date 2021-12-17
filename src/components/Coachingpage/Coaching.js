@@ -29,7 +29,7 @@ export default function Coaching() {
                     of 115 euro per 1,5 uur.
                 </h2>
                 <button className="button-aanvraag" data-tf-slider="kNICAlsm" data-tf-width="550">
-                    Doe een aanvraag
+                    aanvraag
                 </button>
             </div>
         </section>

@@ -34,7 +34,7 @@ export default function Homepage() {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <img src="images/email.svg" alt="instagram" />
+                            <img src="images/email.svg" alt="email" />
                         </a>
                     </li>
                     <li>

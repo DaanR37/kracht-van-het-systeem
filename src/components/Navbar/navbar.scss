@@ -41,6 +41,7 @@
     position: relative;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     list-style-type: none;
     width: 50%;
     top: 2vh;
@@ -51,12 +52,9 @@
         letter-spacing: 0.1em;
         text-decoration: none;
         padding: 25px;
-        // opacity: 0.8;
         &:hover {
             color: #d77548;
-            // color: #fffffe;
             transition: 400ms ease-in-out;
-            // opacity: 1;
         }
     }
     button {
@@ -69,13 +67,9 @@
         font-size: 17px;
         font-weight: 600;
         letter-spacing: 0.1em;
-        // opacity: 0.8;
         &:hover {
             color: #d77548;
-            // color: #fa8954;
-            // color: #fffffe;
             transition: 400ms ease-in-out;
-            // opacity: 1;
         }
     }
 }

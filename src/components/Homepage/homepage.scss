@@ -53,7 +53,7 @@
         font-size: 16px;
         font-weight: 400;
         letter-spacing: 0.123em;
-        text-align: -webkit-center;
+        text-align: center;
         line-height: 1.35;
     }
 }
@@ -77,9 +77,11 @@
     text-decoration: none;
     text-transform: uppercase;
     color: black;
-    opacity: 0.85;
+    opacity: 0.9;
+    letter-spacing: 1.2px;
     &:hover {
         opacity: 1;
+        color: whitesmoke;
         transition: ease-in-out 400ms;
         // -webkit-transform: scale(1.2);
         // -ms-transform: scale(1.2);
@@ -96,7 +98,8 @@
     top: 75%;
     li {
         // float: left;
-        margin: 11px;
+        margin: 11px 0px;
+        padding: 0;
         list-style-type: none;
         a img {
             width: 35px;

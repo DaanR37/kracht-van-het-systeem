@@ -28,7 +28,7 @@ export default function Systeem() {
                     Er zijn soms spanningen die generaties teruggaan en hun wortels hebben in 
                     gebeurtenissen in de familiegeschiedenis.
                     Bijvoorbeeld door jouw ervaringen in de thuissituatie, vroeg overlijden 
-                    van ouders/kinderen, miskramen, abortussen, echtscheiding, seksueel 
+                    van ouders/kinderen, miskraam, abortus, echtscheiding, seksueel 
                     misbruik en oorlog.
                     <br></br><br></br>
                     Dit kan zich uiten in het gevoel hebben niet alles uit je leven kunnen 

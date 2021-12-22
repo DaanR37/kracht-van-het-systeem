@@ -76,9 +76,10 @@
         margin-right: 15px;
         list-style-type: none;
         a img {
-            opacity: 0.75;
+            // opacity: 0.75;
             border: none;
             height: 40px;
+            filter: invert(1);
         }
         a img:hover {
             opacity: 1;
@@ -86,7 +87,7 @@
             -ms-transform: scale(1.2);
             transform: scale(1.2);
             transition: 400ms ease-in-out;
-            filter: invert(1);
+            // filter: invert(1);
         }
     }
 }
@@ -102,11 +103,11 @@
     h3 {
         font-size: 21px;
         margin-bottom: 1px;
-        color: #b4d2ef;
+        color: whitesmoke;
     }
     a {
         text-decoration: none;
-        color: #b4d2ef;
+        color: whitesmoke;
         font-size: 19px;
         line-height: 1.5;
         &:hover {

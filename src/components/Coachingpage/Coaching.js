@@ -25,6 +25,7 @@ export default function Coaching() {
                 <h2>
                     Het doel is dat je in beweging komt,
                     zodat er een betere kwaliteit van leven en werken ontstaat.
+                    <br></br><br></br>
                     Ik hanteer de volgende tarieven: 85 euro per uur voor een 1-op-1 sessie
                     of 115 euro per 1,5 uur.
                 </h2>

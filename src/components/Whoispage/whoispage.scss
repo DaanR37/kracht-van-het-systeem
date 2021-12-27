@@ -1,11 +1,10 @@
-#who-am-i {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(250, 245, 239);
-}
-
 @media screen and (max-width: 600px) and (orientation: portrait) {
+    #who-am-i {
+        position: relative;
+        width: 100vw;
+        height: 110vh;
+        background-color: rgb(250, 245, 239);
+    }
     .image-who-is {
         position: absolute;
         width: 100vw;
@@ -19,7 +18,7 @@
         }
     }
     .circle-who-is {
-        position: relative;
+        position: absolute;
         top: 45%;
         left: 50%;
         width: 400px;
@@ -55,16 +54,12 @@
         }
         img {
             display: none;
-            // position: absolute;
-            // border-radius: 10px;
-            // top: 25%;
-            // right: 90%;
-            // width: 27%;
         }
     }
     .footer-container-who {
         position: absolute;
         display: block;
+        width: 100%;
         margin: 0;
         padding: 0;
         border: 0;
@@ -156,6 +151,12 @@
 }
 
 @media screen and (min-width: 600px) and (orientation: portrait) {
+    #who-am-i {
+        position: relative;
+        width: 100vw;
+        height: 110vh;
+        background-color: rgb(250, 245, 239);
+    }
     .image-who-is {
         position: absolute;
         width: 100vw;
@@ -169,7 +170,7 @@
         }
     }
     .circle-who-is {
-        position: relative;
+        position: absolute;
         top: 47%;
         left: 50%;
         width: 450px;
@@ -214,6 +215,7 @@
     .footer-container-who {
         position: absolute;
         display: block;
+        width: 100%;
         margin: 0;
         padding: 0;
         border: 0;
@@ -313,6 +315,12 @@
 }
 
 @media screen and (min-width: 768px) and (orientation: landscape) {
+    #who-am-i {
+        position: relative;
+        width: 100vw;
+        height: 110vh;
+        background-color: rgb(250, 245, 239);
+    }
     .image-who-is {
         position: absolute;
         width: 100vw;
@@ -326,7 +334,7 @@
         }
     }
     .circle-who-is {
-        position: relative;
+        position: absolute;
         top: 40%;
         left: 50%;
         width: 450px;
@@ -371,6 +379,7 @@
     .footer-container-who {
         position: absolute;
         display: block;
+        width: 100%;
         margin: 0;
         padding: 0;
         border: 0;
@@ -502,7 +511,7 @@
         }
     }
     .circle-who-is {
-        position: relative;
+        position: absolute;
         top: 43%;
         left: 50%;
         width: 500px;
@@ -547,16 +556,18 @@
     .footer-container-who {
         position: absolute;
         display: block;
+        width: 100%;
         margin: 0;
         padding: 0;
         border: 0;
         bottom: 0;
         .bottom-oval-who {
+            position: relative;
             margin-bottom: -4px;
             height: auto;
             width: 100%;
             z-index: 2;
-            position: relative;
+            background-color: #FBF8F3;
         }
         .bottom-oval__fill-who {
             fill: #8e4745;
@@ -575,9 +586,9 @@
         }
     }
     .footer-container-who__content {
+        position: relative;
         background-color: #8e4745;
         height: 100px;
-        position: relative;
         display: flex;
         align-items: flex-end;
     }

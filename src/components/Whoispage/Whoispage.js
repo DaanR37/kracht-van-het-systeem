@@ -37,11 +37,6 @@ export default function Whoispage() {
                     src="images/monique.jpg"
                     alt="Monique foto"
                 />
-                {/* <img
-                    src="images/Hart.png"
-                    alt="Hartje"
-                    className="hart-in-circle"
-                /> */}
             </div>
             <footer className="footer-container-who">
                 <svg class="bottom-oval-who" width="1440px" height="150px" viewBox="0 0 1440 150" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +51,6 @@ export default function Whoispage() {
                 <div className="footer-container-who__content">
                     <div className="container-who">
                         <div className="footer-container-who__column footer-container__column--social">
-                            {/* <h2 className="footer-container__title title title--size-4 color--light-blue">contact mij</h2> */}
                             <div className="footer-container-who__socials">
                                 <ul>
                                     <li>
@@ -89,9 +83,6 @@ export default function Whoispage() {
                                 </ul>
                             </div>
                         </div>
-                        {/* <div className="footer-container__column footer-container__column--contact"> */}
-                        {/* <div className="footer-container__column-inner"> */}
-                        {/* <h2 className="footer-container__title title title--size-4 color--light-blue">Amsterdam</h2> */}
                         <div className="footer-container-who__paragraph">
                             <p>
                                 <strong>
@@ -107,8 +98,6 @@ export default function Whoispage() {
                                 </strong>
                             </p>
                         </div>
-                        {/* </div> */}
-                        {/* </div> */}
                     </div>
                 </div>
                 <div className="front-labs-tag">

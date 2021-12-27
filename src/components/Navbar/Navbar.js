@@ -34,9 +34,7 @@ export default function Navbar() {
       </ul>
       <ul className={`menu ${show && 'menu-buttons'}`}>
         <li><Link to="/Whoispage" className="uitleg-monique">wie ben ik?</Link></li>
-        <button className="button-aanvraag-navbar" data-tf-slider="kNICAlsm" data-tf-width="550">
-          Doe een aanvraag
-        </button>
+        <li><button className="button-aanvraag-navbar" data-tf-slider="kNICAlsm" data-tf-width="550">Doe een aanvraag</button></li>
         <li><a href="#review" className="reviews">reviews</a></li>
       </ul>
     </nav>

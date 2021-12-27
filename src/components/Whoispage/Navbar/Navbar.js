@@ -31,7 +31,7 @@ export default function Navbar() {
         </li>
       </ul>
       <ul className={`menu-who ${show && 'menu-buttons-who'}`}>
-        <a href="/#home">terug</a>
+        <li><a href="/#home">terug</a></li>
       </ul>
     </nav>
   )

@@ -16,7 +16,7 @@ export default function Whoispage() {
             </div>
             <div className="circle-who-is">
                 <header>“Ik voeg de wereld toe aan wie ik al ben"</header>
-                <h2>
+                <h2 className="summary-mo">
                     Monique Aarts oprichter/eigenaar van "De Kracht van het Systeem".
                     Moeder van twee volwassen zoons en oma van een lieve kleindochter, 
                     geboren in 1962, Amsterdam.
@@ -27,6 +27,25 @@ export default function Whoispage() {
                     <br></br> 
                     Coachopleiding,
                     <br></br>
+                    NLP Master,
+                    <br></br> 
+                    Oplossingsgerichte gespreksvoering.
+                    <br></br><br></br> 
+                    En natuurlijk blijf ik mij persoonlijk ontwikkelen. 
+                </h2>
+                <h2 className="mobile-who-is">
+                    Monique Aarts oprichter/eigenaar van "De Kracht van het Systeem".
+                    Moeder van twee volwassen zoons en oma van een lieve kleindochter, 
+                    geboren in 1962, Amsterdam.
+                </h2>
+                    <br></br><br></br>
+                <h2 className="text-indent">
+                    <em>Opleiding</em>
+                    <br></br>
+                    Gecertificeerd begeleider Systemisch werk,
+                    <br></br> 
+                    Coachopleiding,
+                    {/* <br></br> */}
                     NLP Master,
                     <br></br> 
                     Oplossingsgerichte gespreksvoering.

@@ -15,11 +15,18 @@ export default function Whoispage() {
                 />
             </div>
             <div className="circle-who-is">
-                <header>“Ik voeg de wereld toe aan wie ik al ben"</header>
+                {/* <header>“Ik voeg de wereld toe aan wie ik al ben"</header> */}
                 <h2 className="summary-mo">
-                    Monique Aarts oprichter/eigenaar van "De Kracht van het Systeem".
-                    Moeder van twee volwassen zoons en oma van een lieve kleindochter, 
-                    geboren in 1962, Amsterdam.
+                    Monique Aarts eigenaar van 
+                    <br></br>
+                    "de Kracht van het Systeem".
+                    <br></br><br></br>
+                    Ik ben gefascineerd door mensen, hun familiesystemen én 
+                    hun verhalen daarachter. Een familieopstelling laat zien 
+                    wat de onbewuste oorzaak is achter ons gedrag. 
+                    <br></br>
+                    Ik nodig je uit om deze verborgen patronen te herkennen. 
+                    Dit proces zal ik op liefdevolle wijze begeleiden.
                     <br></br><br></br>
                     <em>Opleiding</em>
                     <br></br>
@@ -34,9 +41,16 @@ export default function Whoispage() {
                     En natuurlijk blijf ik mij persoonlijk ontwikkelen. 
                 </h2>
                 <h2 className="mobile-who-is">
-                    Monique Aarts oprichter/eigenaar van "De Kracht van het Systeem".
-                    Moeder van twee volwassen zoons en oma van een lieve kleindochter, 
-                    geboren in 1962, Amsterdam.
+                    Monique Aarts eigenaar van 
+                    <br></br>
+                    "De Kracht van het Systeem".
+                    <br></br><br></br>
+                    Ik ben gefascineerd door mensen, hun familiesystemen én 
+                    hun verhalen daarachter. Een familieopstelling laat zien 
+                    wat de onbewuste oorzaak is achter ons gedrag.
+                    <br></br>
+                    Ik nodig je uit om deze verborgen patronen te herkennen. 
+                    Dit proces zal ik op liefdevolle wijze begeleiden.
                 </h2>
                     <br></br><br></br>
                 <h2 className="text-indent">

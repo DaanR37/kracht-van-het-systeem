@@ -4,6 +4,14 @@
 }
 
 @media screen and (max-width: 600px) and (orientation: portrait) {
+    /// DISPLAY NONE
+    .logo {
+        display: none;
+    }
+    .logo-left {
+        display: none;
+    }
+    ///
     .nav {
         position: fixed;
         display: flex;
@@ -13,31 +21,6 @@
         text-transform: uppercase;
         transition: 0.5s;
         z-index: 1;
-    }
-    .logo {
-        display: none;
-        // position: relative;
-        // display: flex;
-        // justify-content: flex-start;
-        // list-style-type: none;
-        // width: 50%;
-        // top: 2vh;
-        // img {
-        //     width: 45%;
-        // }
-    }
-    .logo-left {
-        display: none;
-        // position: relative;
-        // display: flex;
-        // justify-content: flex-start;
-        // list-style-type: none;
-        // width: 50%;
-        // top: 0.4vh;
-        // transition: ease-in-out 400ms;
-        // img {
-        //     filter: invert(1);
-        // }
     }
     ul.menu.false {
         padding: 0;

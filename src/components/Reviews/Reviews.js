@@ -27,7 +27,7 @@ export default function Reviews() {
                     Groetjes Cindy"
                 </h2>
             </div>
-            <div className="text-balloon-2">
+            <div className="text-balloon two">
                 <img
                     src="images/text-balloon-2.svg"
                     alt="tekstballon"
@@ -36,7 +36,7 @@ export default function Reviews() {
                     "Dat was een eye-opener! Veel dank, wauw. Liefs Anneke"
                 </h2>
             </div>
-            <div className="text-balloon-3">
+            <div className="text-balloon three">
                 <img
                     src="images/text-balloon-3.svg"
                     alt="tekstballon"
@@ -48,7 +48,7 @@ export default function Reviews() {
                     45 kilo lichter. Echt, ik ben zo blij. Thanks Trudy"
                 </h2>
             </div>
-            <div className="text-balloon-4">
+            <div className="text-balloon four">
                 <img
                     src="images/text-balloon-4.svg"
                     alt="tekstballon"
@@ -59,6 +59,19 @@ export default function Reviews() {
                     Momenteel kom ik uit deze verlamming. Ik zie de opstelling nog
                     duidelijk voor me en verwerk wat zich toen toonde. Dank je wel,
                     ik weet je te vinden!”
+                </h2>
+            </div>
+            <div className="text-balloon five">
+                <img
+                    src="images/text-balloon.svg"
+                    alt="tekstballon"
+                />
+                <h2>
+                    “Dag Monique, ondertussen gaat het goed. De sessie heeft duidelijk gemaakt wat er was op dat moment. Een heel
+                    leerrijke periode! Ondertussen spreek ik me helemaal uit in hoe ik in de wereld wil staan en in wat ik nodig heb. Er
+                    kan voor mij geen taboe meer zijn... Grote opluchting bij mij. Ik kies er nu voor om echt mijn pad te gaan en voor
+                    mezelf te kiezen. De energie is helemaal verandert nu. Dank je wel lieve Monique voor jouw bijdrage hierin.
+                    Ps En voor jou nog een dikke merci! Fijne feestdagen.”
                 </h2>
             </div>
         </section>

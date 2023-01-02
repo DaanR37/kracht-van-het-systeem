@@ -6,7 +6,6 @@ import './index.scss';
 import { Component } from 'react';
 import * as typeformEmbed from "@typeform/embed";
 import Whoispage from "./components/Whoispage/Whoispage";
-// import reportWebVitals from './reportWebVitals';
 
 class Series extends Component {
 

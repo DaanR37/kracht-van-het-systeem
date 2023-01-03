@@ -10,22 +10,18 @@
     z-index: 1;
 }
 .logo-who {
+    width: 50%;
     position: relative;
     display: flex;
     justify-content: flex-start;
     list-style-type: none;
-    top: 0.4vh;
+    // top: 0.4vh;
     img {
         filter: invert(1);
     }
 }
 .menu-who {
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
     list-style-type: none;
-    width: 50vw;
-    top: 0.4vh;
     a {
         color: whitesmoke;
         border-radius: 5px;
@@ -47,17 +43,19 @@
         margin: 0;
     }
     .logo-who {
-        width: 50%;
+        top: 0.1vh;
         img {
             width: 140px;
             padding-left: 1rem;
         }
     }
     .menu-who {
+        position: absolute;
         margin-right: 1rem;
-        margin-bottom: 25px;
+        bottom: 0.4vh;
+        right: 0;
         a {
-            font-size: 9px;
+            font-size: 7px;
             padding: 4px;
         }
     }
@@ -72,17 +70,19 @@
         margin: 0;
     }
     .logo-who {
-        width: 50%;
+        top: 0.4vh;
         img {
             width: 140px;
             padding-left: 1rem;
         }
     }
     .menu-who {
+        position: absolute;
         margin-right: 1rem;
-        margin-bottom: 25px;
+        bottom: 0.9vh;
+        right: 0;
         a {
-            font-size: 9px;
+            font-size: 7px;
             padding: 4px;
         }
     }
@@ -97,17 +97,20 @@
         margin: 0;
     }
     .logo-who {
-        width: 50%;
+        top: 0.1vh;
         img {
             width: 180px;
             padding-left: 1.5rem;
         }
     }
     .menu-who {
+        position: absolute;
         margin-right: 1.5rem;
-        margin-bottom: 25px;
+        right: 0;
+        // bottom: 0.9vh;
+        // margin-bottom: 25px;
         a {
-            font-size: 10px;
+            font-size: 8px;
             padding: 5px;
         }
     }
@@ -117,15 +120,22 @@
     .nav-who {
         height: 60px;
     }
+    ul.logo-who.false {
+        padding: 0;
+        margin: 0;
+    }
     .logo-who {
-        width: 50%;
+        top: 0.1vh;
         img {
             width: 180px;
+            padding-left: 1rem;
         }
     }
     .menu-who {
-        margin-right: 1.5rem;
-        margin-bottom: 25px;
+        position: absolute;
+        margin-right: 2rem;
+        right: 0;
+        // margin-bottom: 25px;
         a {
             font-size: 10px;
             padding: 5px;
@@ -138,16 +148,18 @@
         height: 80px;
     }
     .logo-who {
-        width: 40%;
+        top: 0.4vh;
         img {
             width: 220px;
         }
     }
     .menu-who {
+        position: absolute;
         margin-right: 2rem;
+        right: 0;
         a {
-            font-size: 15px;
-            padding: 7px;
+            font-size: 13.5px;
+            padding: 6px;
             &:hover {
                 color: coral;
                 transition: 400ms ease-in-out;
@@ -161,16 +173,18 @@
         height: 80px;
     }
     .logo-who {
-        width: 40%;
+        top: 0.4vh;
         img {
             width: 220px;
         }
     }
     .menu-who {
+        position: absolute;
         margin-right: 2rem;
+        right: 0;
         a {
-            font-size: 16px;
-            padding: 7px;
+            font-size: 13.5px;
+            padding: 6px;
             &:hover {
                 color: coral;
                 transition: 400ms ease-in-out;

@@ -13,10 +13,10 @@ export default function Navbar() {
   }
   useEffect(() => {
     window.addEventListener('scroll',
-    controlNavbar)
+      controlNavbar)
     return () => {
       window.removeEventListener('scroll',
-      controlNavbar)
+        controlNavbar)
     }
   }, [])
 
@@ -24,10 +24,10 @@ export default function Navbar() {
     <nav className={`nav-who ${show && 'nav-container-who'}`}>
       <ul className={`logo-who ${show && 'logo-left-who'}`}>
         <li>
-            <img
-              src="images/logo-zwart.png"
-              alt="logo kracht van het systeem"
-            />
+          <img
+            src="images/logo-zwart.png"
+            alt="logo kracht van het systeem"
+          />
         </li>
       </ul>
       <ul className={`menu-who ${show && 'menu-buttons-who'}`}>

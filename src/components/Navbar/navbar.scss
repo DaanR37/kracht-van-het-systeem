@@ -101,14 +101,21 @@
     .nav {
         height: 55px;
     }
+    ul.logo.false,
+    ul.logo.logo-left {
+        padding: 0;
+        margin: 0;
+    }
     .logo {
         top: 2vh;
         img {
             width: 140px;
+            padding-left: 1rem;
         }
     }
     .logo-left {
         top: 0.4vh;
+        padding-left: 1rem;
     }
     .menu {
         width: 75%;
@@ -138,7 +145,8 @@
     .nav {
         height: 60px;
     }
-    ul.logo.false {
+    ul.logo.false,
+    ul.logo.logo-left {
         padding: 0;
         margin: 0;
     }
@@ -149,13 +157,10 @@
             padding-left: 1.5rem;
         }
     }
-    ul.logo.logo-left {
-        padding: 0;
-        margin: 0;
-    }
     .logo-left {
         top: 0.1vh;
         img {
+            width: 180px;
             padding-left: 1.5rem;
         }
     }
@@ -186,7 +191,8 @@
     .nav {
         height: 60px;
     }
-    ul.logo.false {
+    ul.logo.false,
+    ul.logo.logo-left {
         padding: 0;
         margin: 0;
     }
@@ -194,17 +200,13 @@
         top: 1.2vh;
         img {
             width: 180px;
-            padding-left: 1.5rem;
+            padding-left: 1rem;
         }
-    }
-    ul.logo.logo-left {
-        padding: 0;
-        margin: 0;
     }
     .logo-left {
         top: 0.1vh;
         img {
-            padding-left: 1.5rem;
+            padding-left: 1rem;
         }
     }
     .menu {

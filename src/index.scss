@@ -5,7 +5,8 @@
 //   box-sizing: border-box;
 // }
 
-html, body {
+html,
+body {
   position: relative;
   margin: 0;
   padding: 0;
@@ -17,6 +18,19 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
+}
+
+.front-labs-tag {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  top: 75%;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  right: 1rem;
+  p {
+    color: white;
+  }
 }
 
 code {

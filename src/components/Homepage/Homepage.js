@@ -17,7 +17,7 @@ export default function Homepage() {
                     Herken jij het verschil tussen je gedrag en wie je werkelijk bent?
                     Ben jij tevreden over je thuissituatie, over je werk of juist niet?
                     Hoe ga je om met relaties, het eigen gezin, vader en moeder, schoonouders, collega’s, je gezondheid?
-                    
+
                     Heb je het idee dat je het allemaal alleen moet doen?
                     Kortom: wat werkt wel en wat werkt niet voor jou?
                     Zou jij op ontdekkingstocht willen gaan, om er nog meer uit te halen?

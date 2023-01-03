@@ -4,350 +4,253 @@
     width: 100vw;
     background-color: rgb(250, 245, 239);
 }
-
-@media screen and (max-width: 600px) and (orientation: portrait) {
-    .image-home {
+.image-home {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.25;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+.intro-circle {
+    position: relative;
+    left: 50%;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #710809;
+    filter: drop-shadow(1px 2px 5px black);
+    opacity: 0.8;
+    header {
         position: absolute;
-        width: 100vw;
-        height: 100vh;
-        opacity: 0.5;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: top;
+        text-align: center;
+        // left: 20%;
+        // top: 11%;
+        transform: translate(-4%, 18%);
+        font-weight: 600;
+        // letter-spacing: 0.1em;
+        color: whitesmoke;
+        font-family: "Roboto", sans-serif;
+    }
+    h2 {
+        position: absolute;
+        text-align: center;
+        font-weight: 400;
+        // letter-spacing: 0.123em;
+        // line-height: 1.35;
+        color: whitesmoke;
+        font-family: "Roboto", sans-serif;
+    }
+}
+.button-circle {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    border-radius: 10px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    background-color: #888b7e;
+}
+.social-media-buttons {
+    position: absolute;
+    width: 20vw;
+    li {
+        list-style-type: none;
+        padding: 0;
+        a img {
+            border: none;
+            filter: invert(1);
         }
     }
+}
+
+///Mobile Portrait
+@media screen and (max-width: 600px) and (orientation: portrait) {
     .intro-circle {
-        position: relative;
         top: 50%;
-        left: 50%;
         width: 450px;
         height: 450px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #710809;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
-        // overflow: hidden;
         header {
-            position: absolute;
-            color: whitesmoke;
-            top: 11%;
             left: 27%;
-            transform: translate(-4%, 18%);
-            font-family: "Roboto", sans-serif;
+            top: 11%;
             font-size: 19px;
-            font-weight: 600;
             letter-spacing: 0.1em;
-            text-align: center;
         }
         h2 {
-            position: absolute;
-            color: whitesmoke;
             width: 60%;
-            top: 25%;
             left: 20%;
-            font-family: "Roboto", sans-serif;
+            top: 25%;
             font-size: 12px;
-            font-weight: 400;
             letter-spacing: 0.123em;
-            text-align: center;
             line-height: 1.35;
         }
     }
     .button-circle {
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         top: 84%;
-        left: 50%;
         width: 20%;
         height: 30px;
-        border-radius: 10px;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #888b7e;
         font-size: 12px;
-        font-weight: 600;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: black;
-        letter-spacing: 1.2px;
     }
     .social-media-buttons {
-        position: absolute;
-        width: 20vw;
         right: 0.5rem;
         top: 82%;
         li {
-            // float: left;
             margin: 2px 0px;
-            padding: 0;
-            list-style-type: none;
             a img {
                 width: 70%;
-                border: none;
-                filter: invert(1);
             }
         }
     }
 }
-
-@media screen and (min-width: 600px) and (orientation: portrait) {
-    .image-home {
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        opacity: 0.25;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: top;
-        }
-    }
+///Mobile Landscape
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
     .intro-circle {
-        position: relative;
         top: 40%;
-        left: 50%;
         width: 550px;
         height: 550px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #710809;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
         header {
-            position: absolute;
-            color: whitesmoke;
-            top: 11%;
             left: 27%;
-            transform: translate(-4%, 18%);
-            font-family: "Roboto", sans-serif;
+            top: 11%;
             font-size: 23px;
-            font-weight: 600;
             letter-spacing: 0.1em;
-            text-align: center;
         }
         h2 {
-            position: absolute;
-            color: whitesmoke;
             width: 60%;
-            top: 23%;
             left: 20%;
-            font-family: "Roboto", sans-serif;
+            top: 23%;
             font-size: 16px;
-            font-weight: 400;
             letter-spacing: 0.123em;
-            text-align: center;
             line-height: 1.35;
         }
     }
     .button-circle {
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         top: 88%;
-        left: 50%;
         width: 25%;
         height: 35px;
-        border-radius: 10px;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #888b7e;
         font-size: 17px;
-        font-weight: 600;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: black;
-        letter-spacing: 1.2px;
     }
     .social-media-buttons {
-        position: absolute;
-        width: 20vw;
         left: 1rem;
         top: 80%;
         li {
-            // float: left;
             margin: 11px 0px;
-            padding: 0;
-            list-style-type: none;
             a img {
                 width: 35%;
-                border: none;
-                filter: invert(1);
             }
         }
     }
 }
-
-@media screen and (min-width: 768px) and (orientation: landscape) {
-    .image-home {
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        opacity: 0.25;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: top;
-        }
-    }
+///Tablet Portrait
+@media screen and (min-width: 600px) and (orientation: portrait) {
     .intro-circle {
-        position: relative;
         top: 50%;
-        left: 50%;
-        width: 550px;
-        height: 550px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #710809;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
+        width: 600px;
+        height: 600px;
         header {
-            position: absolute;
-            color: whitesmoke;
+            left: 50%;
             top: 11%;
-            left: 27%;
-            transform: translate(-4%, 18%);
-            font-family: "Roboto", sans-serif;
-            font-size: 23px;
-            font-weight: 600;
+            font-size: 24px;
             letter-spacing: 0.1em;
-            text-align: center;
+            -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
         }
         h2 {
-            position: absolute;
-            color: whitesmoke;
-            width: 60%;
-            top: 23%;
+            width: 65%;
             left: 20%;
-            font-family: "Roboto", sans-serif;
-            font-size: 16px;
-            font-weight: 400;
+            top: 21%;
+            font-size: 18px;
             letter-spacing: 0.123em;
-            text-align: center;
             line-height: 1.35;
         }
     }
     .button-circle {
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        top: 88%;
-        left: 50%;
-        width: 25%;
-        height: 35px;
-        border-radius: 10px;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #888b7e;
-        font-size: 17px;
-        font-weight: 600;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: black;
-        letter-spacing: 1.2px;
+        top: 84%;
+        width: 20%;
+        height: 30px;
+        font-size: 12px;
     }
     .social-media-buttons {
-        position: absolute;
+        right: 0.5rem;
+        top: 82%;
+        li {
+            margin: 2px 0px;
+            a img {
+                width: 70%;
+            }
+        }
+    }
+}
+///Tablet Landscape
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
+    .intro-circle {
+        top: 50%;
+        width: 550px;
+        height: 550px;
+        header {
+            left: 27%;
+            font-size: 23px;
+        }
+        h2 {
+            top: 23%;
+            font-size: 16px;
+        }
+    }
+    .button-circle {
+        top: 88%;
+        width: 25%;
+        height: 35px;
+        font-size: 17px;
+    }
+    .social-media-buttons {
         display: flex;
         justify-content: flex-end;
-        width: 20vw;
         right: 2rem;
         top: 75%;
         li {
-            // float: left;
             margin: 11px 0px;
-            padding: 0;
-            list-style-type: none;
             a img {
                 width: 35px;
-                border: none;
-                filter: invert(1);
             }
         }
     }
 }
-
-@media screen and (min-width: 1280px) {
-    .image-home {
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        opacity: 0.25;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: top;
-        }
-    }
+///Desktop
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
     .intro-circle {
-        position: relative;
         top: 50%;
-        left: 50%;
         width: 550px;
         height: 550px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #710809;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
         header {
-            position: absolute;
-            color: whitesmoke;
-            top: 11%;
             left: 27%;
-            transform: translate(-4%, 18%);
-            font-family: "Roboto", sans-serif;
+            top: 11%;
             font-size: 23px;
-            font-weight: 600;
             letter-spacing: 0.1em;
-            text-align: center;
         }
         h2 {
-            position: absolute;
-            color: whitesmoke;
-            width: 60%;
             top: 23%;
-            left: 20%;
-            font-family: "Roboto", sans-serif;
             font-size: 16px;
-            font-weight: 400;
+            width: 60%;
+            left: 20%;
             letter-spacing: 0.123em;
-            text-align: center;
             line-height: 1.35;
         }
     }
     .button-circle {
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         top: 88%;
-        left: 50%;
         width: 25%;
         height: 35px;
-        border-radius: 10px;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #888b7e;
         font-size: 17px;
-        font-weight: 600;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: black;
-        letter-spacing: 1.2px;
         &:hover {
             opacity: 1;
             color: whitesmoke;
@@ -355,21 +258,14 @@
         }
     }
     .social-media-buttons {
-        position: absolute;
         display: flex;
         justify-content: flex-end;
-        width: 20vw;
         right: 2rem;
         top: 75%;
         li {
-            // float: left;
             margin: 11px 0px;
-            padding: 0;
-            list-style-type: none;
             a img {
                 width: 35px;
-                border: none;
-                filter: invert(1);
             }
             a img:hover {
                 opacity: 1;
@@ -380,4 +276,7 @@
             }
         }
     }
+}
+///Desktop Big
+@media screen and (min-width: 1961px) and (max-width: 2400px) {
 }

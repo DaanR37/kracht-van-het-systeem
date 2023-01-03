@@ -2,7 +2,63 @@
     background-color: black;
     opacity: 0.8;
 }
+.nav {
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    z-index: 1;
+    font-family: "Montserrat", sans-serif;
+}
+.logo {
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+.logo-left {
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    transition: ease-in-out 400ms;
+    img {
+        filter: invert(1);
+    }
+}
+.menu {
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    a {
+        color: black;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+    }
+    button {
+        color: black;
+        background: none;
+        border: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-family: "Montserrat", sans-serif;
+    }
+}
+.menu-buttons {
+    display: flex;
+    transition: ease-in-out 400ms;
+    a,
+    button {
+        color: #fffffe;
+        opacity: 1;
+    }
+}
 
+///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
     /// DISPLAY NONE
     .logo {
@@ -11,92 +67,85 @@
     .logo-left {
         display: none;
     }
-    ///
     .nav {
-        position: fixed;
-        display: flex;
-        align-items: center;
-        width: 100vw;
-        height: 6vh;
-        text-transform: uppercase;
-        transition: 0.5s;
-        z-index: 1;
+        height: 50px;
     }
     ul.menu.false {
         padding: 0;
         margin: 0;
-        // align-items: center;
     }
     .menu {
-        position: relative;
-        display: flex;
+        width: 100vw;
         justify-content: space-evenly;
         align-items: baseline;
-        list-style-type: none;
-        width: 100vw;
         top: 1.2vh;
         a {
-            color: black;
             font-size: 12px;
             font-weight: 600;
-            text-decoration: none;
-            font-family: "Montserrat", sans-serif;
         }
         button {
-            color: black;
             font-size: 12px;
             font-weight: 600;
-            background: none;
-            border: none;
-            text-transform: uppercase;
-            cursor: pointer;
-            font-family: "Montserrat", sans-serif;
         }
     }
     .menu-buttons {
-        padding: 0;
-        position: relative;
-        display: flex;
+        width: 100vw;
         justify-content: space-evenly;
         align-items: baseline;
-        width: 100%;
+        padding: 0;
         top: 0.1vh;
-        transition: ease-in-out 400ms;
-        a {
-            color: #fffffe;
-            opacity: 1;
-        }
-        button {
-            color: #fffffe;
-            opacity: 1;
-        }
     }
 }
-
+///Mobile Landscape
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
+    .nav {
+        height: 55px;
+    }
+    .logo {
+        top: 2vh;
+        img {
+            width: 140px;
+        }
+    }
+    .logo-left {
+        top: 0.4vh;
+    }
+    .menu {
+        width: 75%;
+        justify-content: flex-end;
+        align-items: center;
+        top: 1vh;
+        a {
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            padding: 25px;
+        }
+        button {
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+        }
+    }
+    .menu-buttons {
+        width: 50%;
+        justify-content: flex-end;
+        top: 0.2vh;
+    }
+}
+///Tablet Portrait
 @media screen and (min-width: 600px) and (orientation: portrait) {
     .nav {
-        position: fixed;
-        display: flex;
-        align-items: center;
-        width: 100vw;
-        height: 6vh;
-        text-transform: uppercase;
-        transition: 0.5s;
-        z-index: 1;
+        height: 60px;
     }
     ul.logo.false {
         padding: 0;
         margin: 0;
     }
     .logo {
-        position: relative;
-        display: flex;
-        justify-content: flex-start;
-        list-style-type: none;
-        width: 50%;
         top: 1.2vh;
         img {
-            width: 70%;
+            width: 180px;
             padding-left: 1.5rem;
         }
     }
@@ -105,191 +154,104 @@
         margin: 0;
     }
     .logo-left {
-        position: relative;
-        display: flex;
-        justify-content: flex-start;
-        list-style-type: none;
-        width: 50%;
         top: 0.1vh;
-        transition: ease-in-out 400ms;
         img {
-            filter: invert(1);
             padding-left: 1.5rem;
         }
     }
     .menu {
-        position: relative;
-        display: flex;
         justify-content: flex-end;
         align-items: baseline;
-        list-style-type: none;
         width: 100vw;
         top: 1.2vh;
         a {
-            color: black;
             font-size: 13px;
             font-weight: 600;
-            text-decoration: none;
-            font-family: "Montserrat", sans-serif;
             padding: 20px;
         }
         button {
-            color: black;
             font-size: 13px;
             font-weight: 600;
-            background: none;
-            border: none;
-            text-transform: uppercase;
-            font-family: "Montserrat", sans-serif;
         }
     }
     .menu-buttons {
-        position: relative;
-        display: flex;
+        width: 100vw;
         justify-content: flex-end;
         align-items: baseline;
-        width: 100vw;
         top: 0.1vh;
-        transition: ease-in-out 400ms;
-        a {
-            color: #fffffe;
-            opacity: 1;
-        }
-        button {
-            color: #fffffe;
-            opacity: 1;
-        }
     }
 }
-
-@media screen and (min-width: 768px) and (orientation: landscape) {
+///Tablet Landscape
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
     .nav {
-        position: fixed;
-        display: flex;
-        align-items: center;
-        width: 100vw;
-        height: 9vh;
-        text-transform: uppercase;
-        transition: 0.5s;
-        z-index: 1;
+        height: 60px;
+    }
+    ul.logo.false {
+        padding: 0;
+        margin: 0;
     }
     .logo {
-        position: relative;
-        display: flex;
-        justify-content: flex-start;
-        list-style-type: none;
-        width: 50%;
         top: 1.2vh;
         img {
-            width: 65%;
+            width: 180px;
+            padding-left: 1.5rem;
         }
     }
+    ul.logo.logo-left {
+        padding: 0;
+        margin: 0;
+    }
     .logo-left {
-        position: relative;
-        display: flex;
-        justify-content: flex-start;
-        list-style-type: none;
-        width: 50%;
         top: 0.1vh;
-        transition: ease-in-out 400ms;
         img {
-            filter: invert(1);
+            padding-left: 1.5rem;
         }
     }
     .menu {
-        position: relative;
-        display: flex;
+        width: 100vw;
         justify-content: flex-end;
         align-items: baseline;
-        list-style-type: none;
-        width: 100vw;
         top: 1.2vh;
         a {
-            color: black;
             font-size: 14px;
             font-weight: 600;
-            text-decoration: none;
-            font-family: "Montserrat", sans-serif;
             padding: 20px;
         }
         button {
-            color: black;
             font-size: 14px;
             font-weight: 600;
-            background: none;
-            border: none;
-            text-transform: uppercase;
-            font-family: "Montserrat", sans-serif;
         }
     }
     .menu-buttons {
-        position: relative;
-        display: flex;
+        width: 100vw;
         justify-content: flex-end;
         align-items: baseline;
-        width: 100vw;
         top: 0.1vh;
-        transition: ease-in-out 400ms;
-        a {
-            color: #fffffe;
-            opacity: 1;
-        }
-        button {
-            color: #fffffe;
-            opacity: 1;
-        }
     }
 }
-
-@media screen and (min-width: 1280px) {
+///Desktop
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
     .nav {
-        position: fixed;
-        display: flex;
-        align-items: center;
-        width: 100vw;
-        height: 100px;
-        font-family: "Montserrat", sans-serif;
-        text-transform: uppercase;
-        transition: 0.5s;
-        z-index: 1;
+        height: 80px;
     }
     .logo {
-        position: relative;
-        display: flex;
-        justify-content: flex-start;
-        list-style-type: none;
-        width: 50%;
         top: 2vh;
         img {
-            width: 43%;
+            width: 220px;
         }
     }
     .logo-left {
-        position: relative;
-        display: flex;
-        justify-content: flex-start;
-        list-style-type: none;
-        width: 50%;
         top: 0.4vh;
-        transition: ease-in-out 400ms;
-        img {
-            filter: invert(1);
-        }
     }
     .menu {
-        position: relative;
-        display: flex;
         justify-content: flex-end;
         align-items: center;
-        list-style-type: none;
         width: 50%;
         top: 2vh;
         a {
-            color: black;
             font-size: 17px;
             font-weight: 600;
             letter-spacing: 0.1em;
-            text-decoration: none;
             padding: 25px;
             &:hover {
                 color: #d77548;
@@ -297,12 +259,6 @@
             }
         }
         button {
-            cursor: pointer;
-            background: none;
-            border: none;
-            color: black;
-            font-family: "Montserrat", sans-serif;
-            text-transform: uppercase;
             font-size: 17px;
             font-weight: 600;
             letter-spacing: 0.1em;
@@ -313,20 +269,53 @@
         }
     }
     .menu-buttons {
-        position: relative;
-        display: flex;
-        justify-content: flex-end;
-        list-style-type: none;
         width: 50%;
+        justify-content: flex-end;
         top: 0.4vh;
-        transition: ease-in-out 400ms;
+    }
+}
+///Desktop Big
+@media screen and (min-width: 1961px) and (max-width: 2400px) {
+    .nav {
+        height: 80px;
+    }
+    .logo {
+        top: 2vh;
+        img {
+            width: 220px;
+        }
+    }
+    .logo-left {
+        top: 0.4vh;
+    }
+    .menu {
+        justify-content: flex-end;
+        align-items: center;
+        width: 50%;
+        top: 2vh;
         a {
-            color: #fffffe;
-            opacity: 1;
+            font-size: 17px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            padding: 25px;
+            &:hover {
+                color: #d77548;
+                transition: 400ms ease-in-out;
+            }
         }
         button {
-            color: #fffffe;
-            opacity: 1;
+            font-size: 17px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            &:hover {
+                color: #d77548;
+                transition: 400ms ease-in-out;
+            }
         }
+    }
+    .menu-buttons {
+        width: 50%;
+        justify-content: flex-end;
+        top: 0.4vh;
     }
 }

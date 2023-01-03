@@ -1,161 +1,153 @@
+.nav-who {
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    background-color: black;
+    opacity: 0.8;
+    z-index: 1;
+}
+.logo-who {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    top: 0.4vh;
+    img {
+        filter: invert(1);
+    }
+}
+.menu-who {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 50vw;
+    top: 0.4vh;
+    a {
+        color: whitesmoke;
+        border-radius: 5px;
+        text-decoration: none;
+        border: 1.5px solid whitesmoke;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        opacity: 0.7;
+    }
+}
+
+///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
     .nav-who {
-        position: fixed;
-        display: flex;
-        align-items: center;
-        width: 100vw;
-        height: 6vh;
-        font-family: "Montserrat", sans-serif;
-        text-transform: uppercase;
-        background-color: black;
-        opacity: 0.8;
-        z-index: 1;
+        height: 50px;
     }
     ul.logo-who.false {
         padding: 0;
         margin: 0;
     }
     .logo-who {
-        position: relative;
-        display: flex;
-        justify-content: flex-start;
-        list-style-type: none;
         width: 50%;
-        top: 0.4vh;
         img {
-            width: 75%;
+            width: 140px;
             padding-left: 1rem;
-            filter: invert(1);
         }
     }
     .menu-who {
-        position: relative;
-        display: flex;
-        justify-content: flex-end;
-        list-style-type: none;
-        width: 50vw;
-        top: 0.4vh;
         margin-right: 1rem;
         margin-bottom: 25px;
         a {
-            border: 1.5px solid whitesmoke;
-            border-radius: 5px;
-            color: whitesmoke;
-            font-size: 11px;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-decoration: none;
+            font-size: 9px;
             padding: 4px;
-            opacity: 0.7;
-            // &:hover {
-            //     color: coral;
-            //     transition: 400ms ease-in-out;
-            // }
         }
     }
 }
-
-@media screen and (min-width: 600px) and (orientation: portrait) {
+///Mobile Landscape
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
     .nav-who {
-        position: fixed;
-        display: flex;
-        align-items: center;
-        width: 100vw;
-        height: 6vh;
-        font-family: "Montserrat", sans-serif;
-        text-transform: uppercase;
-        background-color: black;
-        opacity: 0.8;
-        z-index: 1;
+        height: 55px;
     }
     ul.logo-who.false {
         padding: 0;
         margin: 0;
     }
     .logo-who {
-        position: relative;
-        display: flex;
-        justify-content: flex-start;
-        list-style-type: none;
         width: 50%;
-        top: 0.4vh;
         img {
-            width: 47%;
-            padding-left: 1.5rem;
-            filter: invert(1);
+            width: 140px;
+            padding-left: 1rem;
         }
     }
     .menu-who {
-        position: relative;
-        display: flex;
-        justify-content: flex-end;
-        list-style-type: none;
-        width: 50vw;
-        top: 0.4vh;
-        margin-right: 1.5rem;
+        margin-right: 1rem;
         margin-bottom: 25px;
         a {
-            border: 1.5px solid whitesmoke;
-            border-radius: 5px;
-            color: whitesmoke;
-            font-size: 12px;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-decoration: none;
-            padding: 5px;
-            opacity: 0.7;
-            // &:hover {
-            //     color: coral;
-            //     transition: 400ms ease-in-out;
-            // }
+            font-size: 9px;
+            padding: 4px;
         }
     }
 }
-
-@media screen and (min-width: 768px) and (orientation: landscape) {
+///Tablet Portrait
+@media screen and (min-width: 600px) and (orientation: portrait) {
     .nav-who {
-        position: fixed;
-        display: flex;
-        align-items: center;
-        width: 100vw;
-        height: 9vh;
-        font-family: "Montserrat", sans-serif;
-        text-transform: uppercase;
-        background-color: black;
-        opacity: 0.8;
-        z-index: 1;
+        height: 60px;
+    }
+    ul.logo-who.false {
+        padding: 0;
+        margin: 0;
     }
     .logo-who {
-        position: relative;
-        display: flex;
-        justify-content: flex-start;
-        list-style-type: none;
         width: 50%;
-        top: 0.4vh;
         img {
-            width: 45%;
-            filter: invert(1);
+            width: 180px;
+            padding-left: 1.5rem;
         }
     }
     .menu-who {
-        position: relative;
-        display: flex;
-        justify-content: flex-end;
-        list-style-type: none;
-        width: 50vw;
-        top: 0.4vh;
         margin-right: 1.5rem;
         margin-bottom: 25px;
         a {
-            border: 2px solid whitesmoke;
-            border-radius: 5px;
-            color: whitesmoke;
-            font-size: 14px;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-decoration: none;
+            font-size: 10px;
             padding: 5px;
-            opacity: 0.7;
+        }
+    }
+}
+///Tablet Landscape
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
+    .nav-who {
+        height: 60px;
+    }
+    .logo-who {
+        width: 50%;
+        img {
+            width: 180px;
+        }
+    }
+    .menu-who {
+        margin-right: 1.5rem;
+        margin-bottom: 25px;
+        a {
+            font-size: 10px;
+            padding: 5px;
+        }
+    }
+}
+///Desktop
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
+    .nav-who {
+        height: 80px;
+    }
+    .logo-who {
+        width: 40%;
+        img {
+            width: 220px;
+        }
+    }
+    .menu-who {
+        margin-right: 2rem;
+        a {
+            font-size: 15px;
+            padding: 7px;
             &:hover {
                 color: coral;
                 transition: 400ms ease-in-out;
@@ -163,50 +155,22 @@
         }
     }
 }
-
-@media screen and (min-width: 1280px) {
+///Desktop Big
+@media screen and (min-width: 1961px) and (max-width: 2400px) {
     .nav-who {
-        position: fixed;
-        display: flex;
-        align-items: center;
-        width: 100vw;
-        height: 100px;
-        font-family: "Montserrat", sans-serif;
-        text-transform: uppercase;
-        background-color: black;
-        opacity: 0.8;
-        z-index: 1;
+        height: 80px;
     }
     .logo-who {
-        position: relative;
-        display: flex;
-        justify-content: flex-start;
-        list-style-type: none;
-        width: 50%;
-        top: 0.4vh;
+        width: 40%;
         img {
-            width: 43%;
-            filter: invert(1);
+            width: 220px;
         }
     }
     .menu-who {
-        position: relative;
-        display: flex;
-        justify-content: flex-end;
-        list-style-type: none;
-        width: 50%;
-        top: 0.4vh;
         margin-right: 2rem;
         a {
-            border: 2px solid whitesmoke;
-            border-radius: 5px;
-            color: whitesmoke;
             font-size: 16px;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-decoration: none;
-            padding: 10px;
-            opacity: 0.7;
+            padding: 7px;
             &:hover {
                 color: coral;
                 transition: 400ms ease-in-out;

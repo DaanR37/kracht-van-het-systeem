@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap");
 
-// * {
-//   box-sizing: border-box;
-// }
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
 
 html,
 body {
@@ -25,9 +27,9 @@ body {
   display: flex;
   justify-content: flex-end;
   top: 75%;
+  right: 1rem;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
-  right: 1rem;
   p {
     color: white;
   }

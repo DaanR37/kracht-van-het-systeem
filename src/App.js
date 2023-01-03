@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Homepage />
       <Systeem />
-      <Coaching />  
+      <Coaching />
       <Reviews />
       <Footer />
     </>

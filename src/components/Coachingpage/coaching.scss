@@ -4,426 +4,358 @@
     width: 100vw;
     background-color: rgb(250, 245, 239);
 }
-
-@media screen and (max-width: 600px) and (orientation: portrait) {
-    .image-coaching {
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        opacity: 0.45;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: top;
-        }
+.image-coaching {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.25;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
     }
+}
+.coaching-circle-1 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #888b7e;
+    filter: drop-shadow(1px 2px 5px black);
+    opacity: 0.8;
+    header {
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        color: black;
+    }
+    h2 {
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        color: black;
+    }
+}
+.coaching-circle-2 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #710809;
+    filter: drop-shadow(1px 2px 5px black);
+    opacity: 0.8;
+    h2 {
+        text-align: center;
+        color: whitesmoke;
+        font-family: "Roboto", sans-serif;
+    }
+}
+.button-aanvraag {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: -webkit-center;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    // text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: black;
+    border: none;
+    background-color: #888b7e;
+    cursor: pointer;
+}
+
+///Mobile Portrait
+@media screen and (max-width: 600px) and (orientation: portrait) {
     .coaching-circle-1 {
-        position: absolute;
-        top: 28%;
-        left: 45%;
         width: 320px;
         height: 320px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #888b7e;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
+        left: 40%;
+        top: 20%;
+        -webkit-transform: translate(-40%, -20%);
+        transform: translate(-40%, -20%);
         header {
-            position: relative;
-            top: 17%;
-            left: 16%;
-            width: 75%;
-            transform: translate(-4%, 18%);
-            font-family: "Roboto", sans-serif;
-            font-size: 12px;
+            font-size: 13px;
             font-weight: 600;
-            letter-spacing: 0.1em;
-            text-align: center;
-            color: black;
+            // letter-spacing: 0.1em;
+            margin: 45px 50px 10px 50px;
         }
         h2 {
-            position: relative;
-            width: 60%;
-            top: 21%;
-            left: 20%;
-            font-family: "Roboto", sans-serif;
-            font-size: 10px;
-            font-weight: 400;
-            letter-spacing: 0.14em;
+            width: 250px;
+            font-size: 12px;
+            font-weight: 100;
+            letter-spacing: 0.123em;
             line-height: 1.35;
-            text-align: center;
-            color: black;
+            margin: 20px auto;
         }
     }
     .coaching-circle-2 {
-        position: absolute;
-        top: 74%;
+        width: 260px;
+        height: 260px;
         left: 58%;
-        width: 265px;
-        height: 265px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #710809;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
+        top: 81%;
+        -webkit-transform: translate(-58%, -81%);
+        transform: translate(-58%, -81%);
         h2 {
-            position: relative;
-            width: 60%;
-            top: 16%;
-            left: 22%;
-            transform: translate(-3%);
-            -webkit-transform: translate(-3%);
-            font-family: "Roboto", sans-serif;
-            font-size: 11px;
-            font-weight: 400;
-            letter-spacing: 0.14em;
+            width: 180px;
+            font-size: 12px;
+            font-weight: 100;
+            letter-spacing: 0.1em;
             line-height: 1.35;
-            text-align: center;
-            color: whitesmoke;
+            margin: 45px auto;
         }
     }
     .button-aanvraag {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: -webkit-center;
-        top: 23%;
-        left: 50%;
-        width: 19%;
-        height: 19px;
-        border-radius: 5px;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #888b7e;
-        font-size: 7px;
+        width: 75px;
+        height: 20px;
+        font-size: 9px;
         font-weight: 600;
         letter-spacing: 0.5px;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: black;
-        border: none;
-        cursor: pointer;
+        margin: 1px auto;
     }
 }
-
-@media screen and (min-width: 600px) and (orientation: portrait) {
-    .image-coaching {
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        opacity: 0.25;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: top;
+///Mobile Landscape
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
+    .coaching-circle-1 {
+        width: 320px;
+        height: 320px;
+        left: 20%;
+        top: 22.5%;
+        -webkit-transform: translate(-20%, -22.5%);
+        transform: translate(-20%, -22.5%);
+        header {
+            font-size: 13px;
+            font-weight: 600;
+            // letter-spacing: 0.1em;
+            margin: 45px 50px 10px 50px;
+        }
+        h2 {
+            width: 240px;
+            font-size: 12px;
+            font-weight: 100;
+            letter-spacing: 0.123em;
+            line-height: 1.35;
+            margin: 15px auto;
         }
     }
+    .coaching-circle-2 {
+        width: 250px;
+        height: 250px;
+        left: 75%;
+        top: 81%;
+        -webkit-transform: translate(-75%, -81%);
+        transform: translate(-75%, -81%);
+        h2 {
+            width: 180px;
+            font-size: 12px;
+            font-weight: 100;
+            letter-spacing: 0.1em;
+            line-height: 1.35;
+            margin: 40px auto;
+        }
+    }
+    .button-aanvraag {
+        width: 75px;
+        height: 20px;
+        font-size: 9.5px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        margin: 2.5px auto;
+    }
+}
+///Tablet Portrait
+@media screen and (min-width: 600px) and (orientation: portrait) {
     .coaching-circle-1 {
-        position: absolute;
-        top: 35%;
-        left: 34%;
         width: 480px;
         height: 480px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #888b7e;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
+        left: 34%;
+        top: 35%;
+        -webkit-transform: translate(-34%, -35%);
+        transform: translate(-34%, -35%);
         header {
-            position: relative;
-            top: 17%;
-            left: 16%;
-            width: 75%;
-            transform: translate(-4%, 18%);
-            font-family: "Roboto", sans-serif;
             font-size: 18px;
             font-weight: 600;
-            letter-spacing: 0.1em;
-            text-align: center;
-            color: black;
+            margin: 75px 75px 5px 75px;
         }
         h2 {
-            position: relative;
-            width: 60%;
-            top: 21%;
-            left: 20%;
-            font-family: "Roboto", sans-serif;
-            font-size: 15px;
-            font-weight: 400;
-            letter-spacing: 0.14em;
+            width: 315px;
+            font-size: 18px;
+            font-weight: 100;
+            letter-spacing: 0.1em;
             line-height: 1.35;
-            text-align: center;
-            color: black;
+            margin: 20px auto;
         }
     }
     .coaching-circle-2 {
-        position: absolute;
-        top: 65%;
+        width: 380px;
+        height: 380px;
         left: 70%;
-        width: 420px;
-        height: 420px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #710809;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
+        top: 95%;
+        -webkit-transform: translate(-70%, -95%);
+        transform: translate(-70%, -95%);
         h2 {
-            position: relative;
-            width: 60%;
-            top: 18%;
-            left: 22%;
-            transform: translate(-3%);
-            -webkit-transform: translate(-3%);
-            font-family: "Roboto", sans-serif;
-            font-size: 16px;
-            font-weight: 400;
-            letter-spacing: 0.14em;
-            line-height: 1.35;
-            text-align: center;
-            color: whitesmoke;
-        }
-    }
-    .button-aanvraag {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: -webkit-center;
-        top: 26%;
-        left: 50%;
-        width: 20%;
-        height: 30px;
-        border-radius: 10px;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #888b7e;
-        font-size: 11px;
-        font-weight: 600;
-        letter-spacing: 0.9px;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: black;
-        border: none;
-        cursor: pointer;
-    }
-}
-
-@media screen and (min-width: 768px) and (orientation: landscape) {
-    .image-coaching {
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        // filter: brightness(0.78);
-        opacity: 0.25;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: top;
-        }
-    }
-    .coaching-circle-1 {
-        position: absolute;
-        top: 52%;
-        left: 30%;
-        width: 530px;
-        height: 530px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #888b7e;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
-        header {
-            position: relative;
-            top: 17%;
-            left: 16%;
-            width: 75%;
-            transform: translate(-4%, 18%);
-            font-family: "Roboto", sans-serif;
-            font-size: 20px;
-            font-weight: 600;
+            width: 220px;
+            font-size: 18px;
+            font-weight: 100;
             letter-spacing: 0.1em;
-            text-align: center;
-            color: black;
-        }
-        h2 {
-            position: relative;
-            width: 60%;
-            top: 21%;
-            left: 20%;
-            font-family: "Roboto", sans-serif;
-            font-size: 17px;
-            font-weight: 400;
-            letter-spacing: 0.14em;
             line-height: 1.35;
-            text-align: center;
-            color: black;
-        }
-    }
-    .coaching-circle-2 {
-        position: absolute;
-        top: 65%;
-        left: 70%;
-        width: 450px;
-        height: 450px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #710809;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
-        h2 {
-            position: relative;
-            width: 60%;
-            top: 18%;
-            left: 22%;
-            transform: translate(-3%);
-            -webkit-transform: translate(-3%);
-            font-family: "Roboto", sans-serif;
-            font-size: 17px;
-            font-weight: 400;
-            letter-spacing: 0.14em;
-            line-height: 1.35;
-            text-align: center;
-            color: whitesmoke;
+            margin: 60px auto;
         }
     }
     .button-aanvraag {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: -webkit-center;
-        top: 26%;
-        left: 50%;
-        width: 20%;
+        width: 110px;
         height: 30px;
-        border-radius: 10px;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #888b7e;
         font-size: 12px;
         font-weight: 600;
-        letter-spacing: 1.1px;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: black;
-        border: none;
-        cursor: pointer;
+        letter-spacing: 0.9px;
+        margin: 1px auto;
     }
 }
-
-@media screen and (min-width: 1280px) {
-    .image-coaching {
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        // filter: brightness(0.78);
-        opacity: 0.25;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: top;
-        }
-    }
+///Tablet Landscape
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
     .coaching-circle-1 {
-        position: absolute;
-        top: 50%;
-        left: 37%;
-        width: 600px;
-        height: 600px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #888b7e;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
+        width: 480px;
+        height: 480px;
+        left: 20%;
+        top: 30%;
+        -webkit-transform: translate(-20%, -30%);
+        transform: translate(-20%, -30%);
         header {
-            position: relative;
-            top: 18%;
-            left: 16%;
-            width: 75%;
-            transform: translate(-4%, 18%);
-            font-family: "Roboto", sans-serif;
-            font-size: 22px;
+            font-size: 18px;
             font-weight: 600;
-            letter-spacing: 0.1em;
-            text-align: center;
-            color: black;
+            margin: 75px 75px 5px 75px;
         }
         h2 {
-            position: relative;
-            width: 60%;
-            top: 23%;
-            left: 20%;
-            font-family: "Roboto", sans-serif;
+            width: 315px;
             font-size: 18px;
-            font-weight: 400;
-            letter-spacing: 0.14em;
-            line-height: 1.35;
-            text-align: center;
-            color: black;
+            font-weight: 100;
+            letter-spacing: 0.1em;
+            margin: 20px auto;
         }
     }
     .coaching-circle-2 {
-        position: absolute;
-        top: 65%;
-        left: 67%;
-        width: 500px;
-        height: 500px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #710809;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
+        width: 380px;
+        height: 380px;
+        left: 80%;
+        top: 80%;
+        -webkit-transform: translate(-80%, -80%);
+        transform: translate(-80%, -80%);
         h2 {
-            position: relative;
-            width: 60%;
-            top: 20%;
-            left: 22%;
-            transform: translate(-3%);
-            -webkit-transform: translate(-3%);
-            font-family: "Roboto", sans-serif;
+            width: 220px;
             font-size: 18px;
-            font-weight: 400;
-            letter-spacing: 0.14em;
-            line-height: 1.35;
-            text-align: center;
-            color: whitesmoke;
+            font-weight: 100;
+            letter-spacing: 0.1em;
+            margin: 55px auto;
         }
     }
     .button-aanvraag {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: -webkit-center;
-        top: 30%;
-        left: 50%;
-        width: 25%;
-        height: 35px;
-        border-radius: 10px;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #888b7e;
-        font-size: 16px;
+        width: 110px;
+        height: 30px;
+        font-size: 12px;
         font-weight: 600;
-        letter-spacing: 1.2px;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: black;
-        border: none;
-        cursor: pointer;
+        letter-spacing: 0.9px;
+        margin: 1px auto;
+    }
+}
+///Desktop
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
+    .coaching-circle-1 {
+        width: 500px;
+        height: 500px;
+        left: 20%;
+        top: 50%;
+        -webkit-transform: translate(-20%, -50%);
+        transform: translate(-20%, -50%);
+        header {
+            font-size: 20px;
+            font-weight: 600;
+            // letter-spacing: 0.1em;
+            margin: 65px 100px 20px 100px;
+        }
+        h2 {
+            width: 340px;
+            font-size: 17px;
+            font-weight: 100;
+            letter-spacing: 0.123em;
+            line-height: 1.35;
+            margin: 20px auto;
+        }
+    }
+    .coaching-circle-2 {
+        width: 360px;
+        height: 360px;
+        left: 85%;
+        top: 80%;
+        -webkit-transform: translate(-85%, -80%);
+        transform: translate(-85%, -80%);
+        h2 {
+            width: 275px;
+            font-size: 17px;
+            font-weight: 100;
+            letter-spacing: 0.123em;
+            line-height: 1.35;
+            margin: 62.5px auto;
+        }
+    }
+    .button-aanvraag {
+        width: 110px;
+        height: 27.5px;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin: 1px auto;
+        &:hover {
+            opacity: 1;
+            color: whitesmoke;
+            transition: 400ms ease-in-out;
+        }
+    }
+}
+///Desktop Big
+@media screen and (min-width: 1961px) and (max-width: 2400px) {
+    .coaching-circle-1 {
+        width: 500px;
+        height: 500px;
+        left: 20%;
+        top: 50%;
+        -webkit-transform: translate(-20%, -50%);
+        transform: translate(-20%, -50%);
+        header {
+            font-size: 20px;
+            font-weight: 600;
+            // letter-spacing: 0.1em;
+            margin: 65px 100px 20px 100px;
+        }
+        h2 {
+            width: 340px;
+            font-size: 17px;
+            font-weight: 100;
+            letter-spacing: 0.123em;
+            line-height: 1.35;
+            margin: 20px auto;
+        }
+    }
+    .coaching-circle-2 {
+        width: 360px;
+        height: 360px;
+        left: 85%;
+        top: 80%;
+        -webkit-transform: translate(-85%, -80%);
+        transform: translate(-85%, -80%);
+        h2 {
+            width: 275px;
+            font-size: 17px;
+            font-weight: 100;
+            letter-spacing: 0.123em;
+            line-height: 1.35;
+            margin: 62.5px auto;
+        }
+    }
+    .button-aanvraag {
+        width: 110px;
+        height: 27.5px;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin: 1px auto;
         &:hover {
             opacity: 1;
             color: whitesmoke;

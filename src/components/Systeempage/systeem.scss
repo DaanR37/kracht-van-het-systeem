@@ -4,324 +4,282 @@
     width: 100vw;
     background-color: rgb(250, 245, 239);
 }
-
-@media screen and (max-width: 600px) and (orientation: portrait) {
-    .image-systeem {
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        opacity: 0.30;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: top;
-        }
+.image-systeem {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.25;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
     }
+}
+.systeem-circle-1 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #710809;
+    filter: drop-shadow(1px 2px 5px black);
+    opacity: 0.8;
+    header {
+        text-align: center;
+        color: whitesmoke;
+        font-family: "Roboto", sans-serif;
+    }
+    h2 {
+        text-align: center;
+        color: whitesmoke;
+        font-family: "Roboto", sans-serif;
+    }
+}
+.systeem-circle-2 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #888b7e;
+    filter: drop-shadow(1px 2px 5px black);
+    opacity: 0.8;
+    h2 {
+        position: relative;
+        text-align: center;
+        color: black;
+        font-family: "Roboto", sans-serif;
+    }
+}
+
+///Mobile Portrait
+@media screen and (max-width: 600px) and (orientation: portrait) {
     .systeem-circle-1 {
-        position: absolute;
-        top: 28%;
-        left: 45%;
         width: 340px;
         height: 340px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #710809;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
+        left: 45%;
+        top: 20%;
+        -webkit-transform: translate(-45%, -20%);
+        transform: translate(-45%, -20%);
         header {
-            position: relative;
-            top: 21%;
-            left: 13%;
-            width: 80%;
-            transform: translate(-4%, 18%);
-            font-family: "Roboto", sans-serif;
             font-size: 12px;
             font-weight: 600;
-            letter-spacing: 0.1em;
-            text-align: center;
-            color: whitesmoke;
+            margin: 50px 55px 0px 55px;
         }
         h2 {
-            position: relative;
-            width: 60%;
-            top: 25%;
-            left: 20%;
-            font-family: "Roboto", sans-serif;
-            font-size: 10px;
-            font-weight: 400;
-            letter-spacing: 0.123em;
-            text-align: center;
-            color: whitesmoke;
-            line-height: 1.2;
+            width: 210px;
+            font-size: 11px;
+            font-weight: 100;
+            line-height: 1.35;
+            margin: 17.5px auto;
         }
     }
     .systeem-circle-2 {
-        position: absolute;
-        top: 74%;
-        left: 60%;
         width: 300px;
         height: 300px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #888b7e;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
+        left: 60%;
+        top: 85%;
+        -webkit-transform: translate(-60%, -85%);
+        transform: translate(-60%, -85%);
         h2 {
-            position: relative;
-            width: 62%;
-            top: 11%;
-            left: 20%;
-            font-family: "Roboto", sans-serif;
-            font-size: 10px;
-            font-weight: 400;
-            letter-spacing: 0.123em;
-            text-align: center;
-            color: black;
-            line-height: 1.2;
+            width: 210px;
+            font-size: 11px;
+            font-weight: 100;
+            line-height: 1.35;
+            margin: 50px auto;
         }
     }
 }
-
-@media screen and (min-width: 600px) and (orientation: portrait) {
-    .image-systeem {
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        opacity: 0.25;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: top;
-        }
-    }
+///Mobile Landscape
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
     .systeem-circle-1 {
-        position: absolute;
-        top: 30%;
-        left: 34%;
-        width: 460px;
-        height: 460px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #710809;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
+        width: 325px;
+        height: 325px;
+        left: 15%;
+        top: 40%;
+        -webkit-transform: translate(-15%, -40%);
+        transform: translate(-15%, -40%);
         header {
-            position: relative;
-            top: 20%;
-            left: 13%;
-            width: 80%;
-            transform: translate(-4%, 18%);
-            font-family: "Roboto", sans-serif;
-            font-size: 15px;
+            font-size: 11.5px;
             font-weight: 600;
-            letter-spacing: 0.1em;
-            text-align: center;
-            color: whitesmoke;
+            margin: 35px 70px 0px 70px;
         }
         h2 {
-            position: relative;
-            width: 60%;
-            top: 24%;
-            left: 20%;
-            font-family: "Roboto", sans-serif;
-            font-size: 13px;
-            font-weight: 400;
-            letter-spacing: 0.123em;
-            text-align: center;
-            color: whitesmoke;
+            width: 210px;
+            font-size: 10.5px;
+            font-weight: 100;
             line-height: 1.35;
+            margin: 17.5px auto;
         }
     }
     .systeem-circle-2 {
-        position: absolute;
-        top: 74%;
-        left: 65%;
-        width: 420px;
-        height: 420px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #888b7e;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
+        width: 300px;
+        height: 300px;
+        left: 80%;
+        top: 85%;
+        -webkit-transform: translate(-80%, -85%);
+        transform: translate(-80%, -85%);
         h2 {
-            position: relative;
-            width: 62%;
-            top: 14%;
-            left: 20%;
-            font-family: "Roboto", sans-serif;
-            font-size: 13px;
-            font-weight: 400;
-            letter-spacing: 0.123em;
-            text-align: center;
-            color: black;
-            line-height: 1.35;
+            width: 210px;
+            font-size: 10.5px;
+            font-weight: 100;
+            line-height: 1.45;
+            margin: 60px auto;
         }
     }
 }
-
-@media screen and (min-width: 768px) and (orientation: landscape) {
-    .image-systeem {
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        opacity: 0.25;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: top;
-        }
-    }
+///Tablet Portrait
+@media screen and (min-width: 600px) and (orientation: portrait) {
     .systeem-circle-1 {
-        position: absolute;
-        top: 55%;
-        left: 26%;
-        width: 520px;
-        height: 520px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #710809;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
+        width: 465px;
+        height: 465px;
+        left: 15%;
+        top: 25%;
+        -webkit-transform: translate(-15%, -25%);
+        transform: translate(-15%, -25%);
         header {
-            position: relative;
-            top: 20%;
-            left: 13%;
-            width: 80%;
-            transform: translate(-4%, 18%);
-            font-family: "Roboto", sans-serif;
             font-size: 16px;
             font-weight: 600;
-            letter-spacing: 0.1em;
-            text-align: center;
-            color: whitesmoke;
+            margin: 50px 100px 0px 100px;
         }
         h2 {
-            position: relative;
-            width: 60%;
-            top: 25%;
-            left: 20%;
-            font-family: "Roboto", sans-serif;
-            font-size: 14px;
-            font-weight: 400;
+            width: 275px;
+            font-size: 15px;
+            font-weight: 100;
+            line-height: 1.2;
             letter-spacing: 0.123em;
-            text-align: center;
-            color: whitesmoke;
-            line-height: 1.35;
+            margin: 17.5px auto;
         }
     }
     .systeem-circle-2 {
-        position: absolute;
-        top: 67%;
-        left: 75%;
-        width: 450px;
-        height: 450px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #888b7e;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
+        width: 400px;
+        height: 400px;
+        left: 80%;
+        top: 85%;
+        -webkit-transform: translate(-80%, -85%);
+        transform: translate(-80%, -85%);
         h2 {
-            position: relative;
-            width: 62%;
-            top: 15%;
-            left: 20%;
-            font-family: "Roboto", sans-serif;
-            font-size: 14px;
-            font-weight: 400;
+            width: 275px;
+            font-size: 15px;
+            font-weight: 100;
+            line-height: 1.1;
             letter-spacing: 0.123em;
-            text-align: center;
-            color: black;
-            line-height: 1.35;
+            margin: 55px auto;
         }
     }
 }
-
-@media screen and (min-width: 1280px) {
-    .image-systeem {
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        // filter: brightness(0.78);
-        opacity: 0.25;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: top;
-        }
-    }
+///Tablet Landscape
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
     .systeem-circle-1 {
-        position: absolute;
-        top: 55%;
-        left: 26%;
-        width: 600px;
-        height: 600px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #710809;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
+        width: 465px;
+        height: 465px;
+        left: 15%;
+        top: 25%;
+        -webkit-transform: translate(-15%, -25%);
+        transform: translate(-15%, -25%);
         header {
-            position: relative;
-            top: 18%;
-            left: 13%;
-            width: 80%;
-            transform: translate(-4%, 18%);
-            font-family: "Roboto", sans-serif;
-            font-size: 20px;
+            font-size: 16px;
             font-weight: 600;
-            letter-spacing: 0.1em;
-            text-align: center;
-            color: whitesmoke;
+            margin: 50px 100px 0px 100px;
         }
         h2 {
-            position: relative;
-            width: 60%;
-            top: 23%;
-            left: 20%;
-            font-family: "Roboto", sans-serif;
+            width: 275px;
+            font-size: 15px;
+            font-weight: 100;
+            line-height: 1.2;
+            letter-spacing: 0.123em;
+            margin: 17.5px auto;
+        }
+    }
+    .systeem-circle-2 {
+        width: 400px;
+        height: 400px;
+        left: 80%;
+        top: 85%;
+        -webkit-transform: translate(-80%, -85%);
+        transform: translate(-80%, -85%);
+        h2 {
+            width: 275px;
+            font-size: 15px;
+            font-weight: 100;
+            line-height: 1.1;
+            letter-spacing: 0.123em;
+            margin: 55px auto;
+        }
+    }
+}
+///Desktop
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
+    .systeem-circle-1 {
+        width: 600px;
+        height: 600px;
+        left: 15%;
+        top: 55%;
+        -webkit-transform: translate(-15%, -55%);
+        transform: translate(-15%, -55%);
+        header {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 90px 100px 20px 100px;
+        }
+        h2 {
+            width: 340px;
             font-size: 17px;
             font-weight: 400;
             letter-spacing: 0.123em;
-            text-align: center;
-            color: whitesmoke;
             line-height: 1.35;
+            margin: 20px auto;
         }
     }
     .systeem-circle-2 {
-        position: absolute;
-        top: 65%;
-        left: 78%;
         width: 500px;
         height: 500px;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        background-color: #888b7e;
-        filter: drop-shadow(1px 2px 5px black);
-        opacity: 0.8;
+        left: 85%;
+        top: 80%;
+        -webkit-transform: translate(-85%, -80%);
+        transform: translate(-85%, -80%);
         h2 {
-            position: relative;
-            width: 62%;
-            top: 14%;
-            left: 20%;
-            font-family: "Roboto", sans-serif;
+            width: 325px;
             font-size: 16px;
             font-weight: 400;
             letter-spacing: 0.123em;
-            text-align: center;
-            color: black;
             line-height: 1.35;
+            margin: 75px auto;
+        }
+    }
+}
+///Desktop Big
+@media screen and (min-width: 1961px) and (max-width: 2400px) {
+    .systeem-circle-1 {
+        width: 600px;
+        height: 600px;
+        left: 15%;
+        top: 55%;
+        -webkit-transform: translate(-15%, -55%);
+        transform: translate(-15%, -55%);
+        header {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 90px 100px 20px 100px;
+        }
+        h2 {
+            width: 340px;
+            font-size: 17px;
+            font-weight: 400;
+            letter-spacing: 0.123em;
+            line-height: 1.35;
+            margin: 20px auto;
+        }
+    }
+    .systeem-circle-2 {
+        width: 500px;
+        height: 500px;
+        left: 85%;
+        top: 80%;
+        -webkit-transform: translate(-85%, -80%);
+        transform: translate(-85%, -80%);
+        h2 {
+            width: 325px;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 0.123em;
+            line-height: 1.35;
+            margin: 75px auto;
         }
     }
 }

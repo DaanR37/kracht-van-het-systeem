@@ -18,7 +18,7 @@ export default function Coaching() {
                     gelijkwaardige één-op-één-relatie. Ik stel je wat vragen en kan je ondersteunen
                     de weg te bewandelen waar je even was afgedwaald.
                     Coaching is gericht op het verdiepen van het bewustzijn, wat effect
-                    kan hebben op jouw gedrag. 
+                    kan hebben op jouw gedrag.
                 </h2>
             </div>
             <div className="coaching-circle-2">

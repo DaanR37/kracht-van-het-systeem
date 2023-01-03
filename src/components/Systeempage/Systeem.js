@@ -25,21 +25,21 @@ export default function Systeem() {
             </div>
             <div className="systeem-circle-2">
                 <h2>
-                    Er zijn soms spanningen die generaties teruggaan en hun wortels hebben in 
+                    Er zijn soms spanningen die generaties teruggaan en hun wortels hebben in
                     gebeurtenissen in de familiegeschiedenis.
-                    Bijvoorbeeld door jouw ervaringen in de thuissituatie, vroeg overlijden 
-                    van ouders/kinderen, miskraam, abortus, echtscheiding, seksueel 
+                    Bijvoorbeeld door jouw ervaringen in de thuissituatie, vroeg overlijden
+                    van ouders/kinderen, miskraam, abortus, echtscheiding, seksueel
                     misbruik en oorlog.
                     <br></br><br></br>
-                    Dit kan zich uiten in het gevoel hebben niet alles uit je leven kunnen 
-                    halen, telkens ergens tegen aan te lopen, chronische vermoeidheid, 
+                    Dit kan zich uiten in het gevoel hebben niet alles uit je leven kunnen
+                    halen, telkens ergens tegen aan te lopen, chronische vermoeidheid,
                     relatieproblemen, burn-out en meer…
                 </h2>
             </div>
-            {/* <a href="#coaching"> */}
-                {/* <div className="arrow-down"> */}
-                    {/* <span></span> */}
-                    {/* <span></span>
+            {/* <a href="#coaching">
+                <div className="arrow-down">
+                    <span></span>
+                    <span></span>
                     <span></span>
                 </div>
             </a> */}

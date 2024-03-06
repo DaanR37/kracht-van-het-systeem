@@ -31,283 +31,411 @@
 
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
+    // --> Hoi Monique, ik vind het erg bijzonder..... <-- \\
     .text-balloon {
         top: 23%;
         left: 4%;
         img {
-            width: 220px;
+            width: 200px;
         }
         h2 {
-            margin: 25px;
+            margin: 26px;
             top: 5%;
-            font-size: 8px;
+            font-size: 7px;
         }
     }
+    // --> Dat was een eye-opener..... <-- \\
     .text-balloon.two {
         top: 9%;
         left: 27.5%;
         img {
-            width: 100px;
+            width: 80px;
             -webkit-transform: scaleX(-1);
             transform: scaleX(-1);
         }
         h2 {
             margin: 12.5px;
-            top: 10%;
-            font-size: 8px;
+            top: 7%;
+            font-size: 7px;
         }
     }
+    // --> Hi Monique, ik ben nu zes keer bij je..... <-- \\
     .text-balloon.three {
-        top: 20%;
+        top: 12.5%;
         left: 55%;
         img {
-            width: 160px;
+            width: 145px;
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+        h2 {
+            margin: 17px;
+            top: 12%;
+            font-size: 7px;
+        }
+    }
+    // --> Hallo Monique, de opstelling was diepgaand..... <-- \\
+    .text-balloon.four {
+        top: 70%;
+        left: 10%;
+        img {
+            width: 145px;
             -webkit-transform: scaleX(-1);
             transform: scaleX(-1);
         }
         h2 {
             margin: 20px;
-            top: 12%;
-            font-size: 8px;
+            top: 2.5%;
+            font-size: 7px;
         }
     }
-    .text-balloon.four {
-        top: 75%;
+    // --> Dag Monique, ondertussen gaat het..... <-- \\
+    .text-balloon.five {
+        top: 35%;
+        left: 45%;
+        img {
+            width: 210px;
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+        h2 {
+            margin: 35px;
+            top: 1%;
+            font-size: 7px;
+        }
+    }
+    // --> Lieve Monique, dank je wel voor..... <-- \\
+    .text-balloon.six {
+        top: 50%;
         left: 5%;
         img {
-            width: 185px;
-            -webkit-transform: scaleX(-1);
-            transform: scaleX(-1);
-        }
-        h2 {
-            margin: 20px;
-            top: 7.5%;
-            font-size: 9px;
-        }
-    }
-    .text-balloon.five {
-        top: 47.5%;
-        left: 32.5%;
-        img {
-            width: 250px;
-            -webkit-transform: scaleX(-1);
-            transform: scaleX(-1);
-        }
-        h2 {
-            margin: 40px;
-            top: 1%;
-            font-size: 8.5px;
-        }
-    }
-}
-///Mobile Landscape
-@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
-    .text-balloon {
-        top: 4%;
-        left: 4%;
-        img {
-            width: 225px;
+            width: 150px;
         }
         h2 {
             margin: 25px;
-            top: 6.5%;
-            font-size: 8.5px;
+            top: 2%;
+            font-size: 7px;
         }
     }
-    .text-balloon.two {
-        top: 60%;
-        left: 21%;
-        img {
-            width: 100px;
-            -webkit-transform: scaleX(-1);
-            transform: scaleX(-1);
-        }
-        h2 {
-            margin: 15px;
-            top: 10%;
-            font-size: 8.5px;
-        }
-    }
-    .text-balloon.three {
-        top: 3%;
-        left: 72%;
-        img {
-            width: 170px;
-            -webkit-transform: scaleX(-1);
-            transform: scaleX(-1);
-        }
-        h2 {
-            margin: 22px;
-            top: 5%;
-            font-size: 8.5px;
-        }
-    }
-    .text-balloon.four {
-        top: 48%;
-        left: 65%;
-        img {
-            width: 180px;
-        }
-        h2 {
-            margin: 20px;
-            top: 6%;
-            font-size: 8.5px;
-        }
-    }
-    .text-balloon.five {
-        top: 13.5%;
-        left: 32.5%;
-        img {
-            width: 250px;
-            -webkit-transform: scaleX(-1);
-            transform: scaleX(-1);
-        }
-        h2 {
-            margin: 40px;
-            top: 1%;
-            font-size: 8.5px;
-        }
-    }
-}
-///Tablet Portrait
-@media screen and (min-width: 600px) and (orientation: portrait) {
-    .text-balloon {
-        top: 16%;
-        left: 4%;
-        img {
-            width: 365px;
-        }
-        h2 {
-            margin: 38px;
-            top: 5%;
-            font-size: 13.5px;
-        }
-    }
-    .text-balloon.two {
-        top: 47%;
-        left: 40%;
+    // --> Hi Monique. Wat fijn en inzicht..... <-- \\
+    .text-balloon.seven {
+        top: 65%;
+        left: 55%;
         img {
             width: 155px;
             -webkit-transform: scaleX(-1);
             transform: scaleX(-1);
         }
         h2 {
-            margin: 10px;
+            margin: 23px;
+            top: 8%;
+            font-size: 7px;
+        }
+    }
+}
+///Mobile Landscape
+@media only screen and (min-width: 600px) and (max-width: 932px) and (orientation: landscape) {
+    // --> Hoi Monique, ik vind het erg bijzonder..... <-- \\
+    .text-balloon {
+        top: 15%;
+        left: 3.5%;
+        img {
+            width: 220px;
+        }
+        h2 {
+            margin: 26px;
+            top: 5%;
+            font-size: 8px;
+        }
+    }
+    // --> Dat was een eye-opener..... <-- \\
+    .text-balloon.two {
+        top: 40%;
+        left: 45%;
+        img {
+            width: 80px;
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+        h2 {
+            margin: 4px;
             top: 15%;
-            font-size: 15.5px;
+            font-size: 8px;
         }
     }
+    // --> Hi Monique, ik ben nu zes keer bij je..... <-- \\
     .text-balloon.three {
-        top: 25%;
-        left: 63%;
+        top: 7.5%;
+        left: 50%;
         img {
-            width: 280px;
+            width: 155px;
             -webkit-transform: scaleX(-1);
             transform: scaleX(-1);
         }
         h2 {
-            margin: 36px;
-            top: 4%;
-            font-size: 15px;
+            margin: 18px;
+            top: 10%;
+            font-size: 8px;
         }
     }
+    // --> Hallo Monique, de opstelling was diepgaand..... <-- \\
     .text-balloon.four {
-        top: 56%;
-        left: 58%;
+        top: 15%;
+        left: 27.5%;
         img {
-            width: 325px;
+            width: 165px;
         }
         h2 {
-            margin: 39px;
-            top: 7%;
-            font-size: 15px;
+            margin: 18px;
+            top: 5%;
+            font-size: 8px;
         }
     }
+    // --> Dag Monique, ondertussen gaat het..... <-- \\
     .text-balloon.five {
-        top: 60%;
-        left: 5%;
+        top: 25%;
+        left: 72.5%;
         img {
-            width: 400px;
+            width: 230px;
+        }
+        h2 {
+            margin: 27px;
+            top: 7.5%;
+            font-size: 8px;
+        }
+    }
+    // --> Lieve Monique, dank je wel voor..... <-- \\
+    .text-balloon.six {
+        top: 58.5%;
+        left: 27.5%;
+        img {
+            width: 160px;
+        }
+        h2 {
+            margin: 20px;
+            top: 2.5%;
+            font-size: 8px;
+        }
+    }
+    // --> Hi Monique. Wat fijn en inzicht..... <-- \\
+    .text-balloon.seven {
+        top: 50%;
+        left: 53.5%;
+        img {
+            width: 160px;
             -webkit-transform: scaleX(-1);
             transform: scaleX(-1);
         }
         h2 {
-            margin: 58px;
-            top: 1%;
-            font-size: 14px;
+            margin: 22.5px;
+            top: 5%;
+            font-size: 8px;
+        }
+    }
+}
+///Tablet Portrait
+@media screen and (min-width: 600px) and (orientation: portrait) {
+    // --> Hoi Monique, ik vind het erg bijzonder..... <-- \\
+    .text-balloon {
+        top: 10%;
+        left: 3.5%;
+        img {
+            width: 335px;
+        }
+        h2 {
+            margin: 40px;
+            top: 5%;
+            font-size: 12px;
+        }
+    }
+    // --> Dat was een eye-opener..... <-- \\
+    .text-balloon.two {
+        top: 37.5%;
+        left: 42.5%;
+        img {
+            width: 125px;
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+        h2 {
+            margin: 10px;
+            top: 12.5%;
+            font-size: 12px;
+        }
+    }
+    // --> Hi Monique, ik ben nu zes keer bij je..... <-- \\
+    .text-balloon.three {
+        top: 7.5%;
+        left: 50%;
+        img {
+            width: 225px;
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+        h2 {
+            margin: 29px;
+            top: 5%;
+            font-size: 12px;
+        }
+    }
+    // --> Hallo Monique, de opstelling was diepgaand..... <-- \\
+    .text-balloon.four {
+        top: 42.5%;
+        left: 8.5%;
+        img {
+            width: 235px;
+        }
+        h2 {
+            margin: 25px;
+            top: 5%;
+            font-size: 12px;
+        }
+    }
+    // --> Dag Monique, ondertussen gaat het..... <-- \\
+    .text-balloon.five {
+        top: 55%;
+        left: 50%;
+        img {
+            width: 335px;
+        }
+        h2 {
+            margin: 35px;
+            top: 10%;
+            font-size: 12px;
+        }
+    }
+    // --> Lieve Monique, dank je wel voor..... <-- \\
+    .text-balloon.six {
+        top: 65%;
+        left: 15%;
+        img {
+            width: 250px;
+        }
+        h2 {
+            margin: 35px;
+            top: 5%;
+            font-size: 12px;
+        }
+    }
+    // --> Hi Monique. Wat fijn en inzicht..... <-- \\
+    .text-balloon.seven {
+        top: 32.5%;
+        left: 65%;
+        img {
+            width: 230px;
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+        h2 {
+            margin: 29px;
+            top: 5%;
+            font-size: 12px;
         }
     }
 }
 ///Tablet Landscape
 @media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
-    .text-balloon {
-        top: 13%;
-        left: 1.5%;
+     // --> Hoi Monique, ik vind het erg bijzonder..... <-- \\
+     .text-balloon {
+        top: 15%;
+        left: 3.5%;
         img {
-            width: 420px;
+            width: 360px;
         }
         h2 {
-            margin: 50px;
-            top: 5%;
-            font-size: 15px;
+            margin: 55px;
+            top: 1%;
+            font-size: 12.5px;
         }
     }
+    // --> Dat was een eye-opener..... <-- \\
     .text-balloon.two {
-        top: 75%;
-        left: 19%;
+        top: 15.5%;
+        left: 35%;
         img {
-            width: 135px;
+            width: 125px;
             -webkit-transform: scaleX(-1);
             transform: scaleX(-1);
         }
         h2 {
-            margin: 10px;
-            top: 20%;
-            font-size: 12px;
+            margin: 8.5px;
+            top: 12.5%;
+            font-size: 12.5px;
         }
     }
+    // --> Hi Monique, ik ben nu zes keer bij je..... <-- \\
     .text-balloon.three {
-        top: 8%;
-        left: 53%;
+        top: 5%;
+        left: 50%;
         img {
-            width: 300px;
-            // -webkit-transform: scaleX(-1);
-            // transform: scaleX(-1);
-        }
-        h2 {
-            margin: 39px;
-            top: 5%;
-            font-size: 15px;
-        }
-    }
-    .text-balloon.four {
-        top: 50%;
-        left: 35%;
-        img {
-            width: 310px;
+            width: 250px;
+            -webkit-transform: scaleX(-1);
             transform: scaleX(-1);
         }
         h2 {
-            margin: 41px;
-            top: 2%;
-            font-size: 15px;
+            margin: 32.5px;
+            top: 10%;
+            font-size: 12.5px;
         }
     }
-    .text-balloon.five {
+    // --> Hallo Monique, de opstelling was diepgaand..... <-- \\
+    .text-balloon.four {
         top: 45%;
-        left: 65%;
+        left: 30%;
         img {
-            width: 390px;
+            width: 255px;
         }
         h2 {
-            margin: 55px;
-            top: 4%;
-            font-size: 13.5px;
+            margin: 32.5px;
+            top: 5%;
+            font-size: 12.5px;
+        }
+    }
+    // --> Dag Monique, ondertussen gaat het..... <-- \\
+    .text-balloon.five {
+        top: 40%;
+        left: 72.5%;
+        img {
+            width: 335px;
+        }
+        h2 {
+            margin: 35px;
+            top: 10%;
+            font-size: 12px;
+        }
+    }
+    // --> Lieve Monique, dank je wel voor..... <-- \\
+    .text-balloon.six {
+        top: 66%;
+        left: 5%;
+        img {
+            width: 255px;
+        }
+        h2 {
+            margin: 32.5px;
+            top: 5%;
+            font-size: 12.5px;
+        }
+    }
+    // --> Hi Monique. Wat fijn en inzicht..... <-- \\
+    .text-balloon.seven {
+        top: 42.5%;
+        left: 52.5%;
+        img {
+            width: 245px;
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+        h2 {
+            margin: 32.5px;
+            top: 5%;
+            font-size: 12.5px;
         }
     }
 }
 ///Desktop
 @media screen and (min-width: 1281px) and (max-width: 1960px) {
+    // --> Hoi Monique, ik vind het erg bijzonder..... <-- \\
     .text-balloon {
         top: 15%;
         left: 3.5%;
@@ -320,6 +448,7 @@
             font-size: 15px;
         }
     }
+    // --> Dat was een eye-opener..... <-- \\
     .text-balloon.two {
         top: 15.5%;
         left: 35%;
@@ -334,6 +463,7 @@
             font-size: 12px;
         }
     }
+    // --> Hi Monique, ik ben nu zes keer bij je..... <-- \\
     .text-balloon.three {
         top: 5%;
         left: 50%;
@@ -348,9 +478,10 @@
             font-size: 15px;
         }
     }
+    // --> Hallo Monique, de opstelling was diepgaand..... <-- \\
     .text-balloon.four {
         top: 45%;
-        left: 34%;
+        left: 30%;
         img {
             width: 330px;
         }
@@ -360,6 +491,7 @@
             font-size: 16px;
         }
     }
+    // --> Dag Monique, ondertussen gaat het..... <-- \\
     .text-balloon.five {
         top: 40%;
         left: 72.5%;
@@ -370,11 +502,40 @@
             margin: 40px;
             top: 10%;
             font-size: 13px;
+        }
+    }
+    // --> Lieve Monique, dank je wel voor..... <-- \\
+    .text-balloon.six {
+        top: 66%;
+        left: 5%;
+        img {
+            width: 250px;
+        }
+        h2 {
+            margin: 40px;
+            top: 2.5%;
+            font-size: 12px;
+        }
+    }
+    // --> Hi Monique. Wat fijn en inzicht..... <-- \\
+    .text-balloon.seven {
+        top: 65%;
+        left: 55%;
+        img {
+            width: 250px;
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+        h2 {
+            margin: 40px;
+            top: 2.5%;
+            font-size: 12px;
         }
     }
 }
 ///Desktop Big
 @media screen and (min-width: 1961px) and (max-width: 2400px) {
+    // --> Hoi Monique, ik vind het erg bijzonder..... <-- \\
     .text-balloon {
         top: 15%;
         left: 3.5%;
@@ -387,6 +548,7 @@
             font-size: 15px;
         }
     }
+    // --> Dat was een eye-opener..... <-- \\
     .text-balloon.two {
         top: 15.5%;
         left: 35%;
@@ -401,6 +563,7 @@
             font-size: 12px;
         }
     }
+    // --> Hi Monique, ik ben nu zes keer bij je..... <-- \\
     .text-balloon.three {
         top: 5%;
         left: 50%;
@@ -415,9 +578,10 @@
             font-size: 15px;
         }
     }
+    // --> Hallo Monique, de opstelling was diepgaand..... <-- \\
     .text-balloon.four {
         top: 45%;
-        left: 34%;
+        left: 30%;
         img {
             width: 330px;
         }
@@ -427,6 +591,7 @@
             font-size: 16px;
         }
     }
+    // --> Dag Monique, ondertussen gaat het..... <-- \\
     .text-balloon.five {
         top: 40%;
         left: 72.5%;
@@ -437,6 +602,34 @@
             margin: 40px;
             top: 10%;
             font-size: 13px;
+        }
+    }
+    // --> Lieve Monique, dank je wel voor..... <-- \\
+    .text-balloon.six {
+        top: 66%;
+        left: 5%;
+        img {
+            width: 250px;
+        }
+        h2 {
+            margin: 40px;
+            top: 2.5%;
+            font-size: 12px;
+        }
+    }
+    // --> Hi Monique. Wat fijn en inzicht..... <-- \\
+    .text-balloon.seven {
+        top: 65%;
+        left: 55%;
+        img {
+            width: 250px;
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+        h2 {
+            margin: 40px;
+            top: 2.5%;
+            font-size: 12px;
         }
     }
 }
